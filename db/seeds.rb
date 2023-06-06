@@ -5,7 +5,7 @@ puts "Clearing database... 🧹"
 
 City.destroy_all
 
-filepath = "/Users/BrendanDodd/code/brendodd/PerriPlan/db/hotels/ams_hotels.json"
+filepath = File.join(__dir__, "hotels/ams_hotels.json")
 serialized_hotel = File.read(filepath)
 info = JSON.parse(serialized_hotel)
 
