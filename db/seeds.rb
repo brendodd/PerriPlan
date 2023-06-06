@@ -14,5 +14,5 @@ serialized_hotel = File.read(filepath)
 info = JSON.parse(serialized_hotel)
 
 info['properties'].each do |property|
-  puts property['name']
+  Hotel.create({ name: property['name'] })
 end
