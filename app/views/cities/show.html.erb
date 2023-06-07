@@ -1,0 +1,137 @@
+
+<div class="container mt-3"></div>
+  <div class="col-12">
+    <h1><%=@city.name %></h1>
+    <h3><%="Explore #{@city.name} below!" %></h3>
+  </div>
+<div class="d-flex">
+  <div class="pe-4" style="width: 50%">
+    <div class="row">
+    </div>
+
+  <!-- Hero -->
+  <section class="et-hero-tabs">
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-es6">Hotels</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Food & Drink</a>
+      <a class="et-hero-tab" href="#tab-react">Attractions</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6">
+      <h1>Hotels</h1>
+      <h3>something about es6</h3>
+        <div class="row">
+      <% @hotels.each do |hotel| %>
+        <div class="col-md-6 mb-4">
+          <div class="smol-card-component">
+             <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
+            <div class="smol-card-component-body">
+              <%= link_to "Book Now", "", class:"btn btn-info fw-bold" %>
+              <div class="smol-card-component-copy">
+                <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-hotel"></i> <%= hotel.name %></p>
+                <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= "hotel.location" %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    </section>
+    <section class="et-slide" id="tab-flexbox">
+      <h1>Food & Drink</h1>
+      <h3>something about flexbox</h3>
+    </section>
+    <section class="et-slide" id="tab-react">
+      <h1>Attractions</h1>
+      <h3>something about react</h3>
+    </section>
+  </main>
+  </div>
+    <div class="sticky-map" style="position: sticky !important; top: 10px; width: 50%; height: 100vh;"
+    data-controller="map"
+    data-map-markers-value="<%= @markers.to_json %>"
+    data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"></div>
+</div>
+</div>
+
+<script>
+class StickyNavigation {
+
+	constructor() {
+		this.currentId = null;
+		this.currentTab = null;
+		this.tabContainerHeight = 70;
+		let self = this;
+		$('.et-hero-tab').click(function() {
+			self.onTabClick(event, $(this));
+		});
+		$(window).scroll(() => { this.onScroll(); });
+		$(window).resize(() => { this.onResize(); });
+	}
+
+	onTabClick(event, element) {
+		event.preventDefault();
+		let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
+		$('html, body').animate({ scrollTop: scrollTop }, 600);
+	}
+
+	onScroll() {
+		this.checkTabContainerPosition();
+    this.findCurrentTabSelector();
+	}
+
+	onResize() {
+		if(this.currentId) {
+			this.setSliderCss();
+		}
+	}
+
+	checkTabContainerPosition() {
+		let offset = $('.et-hero-tabs').offset().top + $('.et-hero-tabs').height() - this.tabContainerHeight;
+		if($(window).scrollTop() > offset) {
+			$('.et-hero-tabs-container').addClass('et-hero-tabs-container--top');
+		}
+		else {
+			$('.et-hero-tabs-container').removeClass('et-hero-tabs-container--top');
+		}
+	}
+
+	findCurrentTabSelector(element) {
+		let newCurrentId;
+		let newCurrentTab;
+		let self = this;
+		$('.et-hero-tab').each(function() {
+			let id = $(this).attr('href');
+			let offsetTop = $(id).offset().top - self.tabContainerHeight;
+			let offsetBottom = $(id).offset().top + $(id).height() - self.tabContainerHeight;
+			if($(window).scrollTop() > offsetTop && $(window).scrollTop() < offsetBottom) {
+				newCurrentId = id;
+				newCurrentTab = $(this);
+			}
+		});
+		if(this.currentId != newCurrentId || this.currentId === null) {
+			this.currentId = newCurrentId;
+			this.currentTab = newCurrentTab;
+			this.setSliderCss();
+		}
+	}
+
+	setSliderCss() {
+		let width = 0;
+		let left = 0;
+		if(this.currentTab) {
+			width = this.currentTab.css('width');
+			left = this.currentTab.offset().left;
+		}
+		$('.et-hero-tab-slider').css('width', width);
+		$('.et-hero-tab-slider').css('left', left);
+	}
+
+}
+
+new StickyNavigation();
+</script>

@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   end
   # Defines the root path route ("/")
   # root "articles#index"
+  resources :cities, only: [:show]
 end
