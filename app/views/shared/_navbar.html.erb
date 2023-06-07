@@ -1,28 +1,26 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-perriplan">
+<div class="navbar navbar-expand-sm navbar-light navbar-perriplan fixed-top">
   <div class="container-fluid">
     <div class="d-flex justify-content-start align-items-center">
       <%= link_to root_path, class: "navbar-brand" do %>
         <%= image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDBZWCALotd8NtIPCKubDqC95h0RG5wnnKcg&usqp=CAU" %>
       <% end %>
       <h1>PerriPlan</h1>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto container mx-3">
+          <li class="nav-item active">
+            <%= link_to "Hotels", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item active">
+            <%= link_to "Restaurants", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Attractions", "#", class: "nav-link" %>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <%= form_with method: :get, class: "d-flex" do %>
-      <%= text_field_tag :query,
-                          params[:query],
-                          class: "form-control rounded",
-                          placeholder: "Search destinations..." %>
-      <%= button_tag type: 'submit', name: "", id: "btnsearch", class: "btn btn-secondary" do %>
-        <i class="fas fa-search"></i>
-      <% end %>
-    <% end %>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
+      <ul class="navbar-nav me-auto container">
         <% if user_signed_in? %>
           <li class="nav-item active">
             <%= link_to "Home", "#", class: "nav-link" %>
