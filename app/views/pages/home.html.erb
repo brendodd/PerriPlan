@@ -1,66 +1,60 @@
 <div>
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9ncyUyMHBsYXlpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60);">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.istockphoto.com/id/1155030342/photo/dog-travel-by-car.webp?b=1&s=170667a&w=0&k=20&c=eNS7OiN-Si03Wo49u-XXGTCvxJmkIc4C4QrOU3p8chE=);">
     <div class="container">
-      <h1>BarkBuddy helps your little buddy find a babysitter while you're away!</h1>
-      <p>Travel the world in peace knowing your peluche is being taken care of.</p>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1>Where are you going to go with your Perri?</h1>
+      <%= form_with method: :get, class: "d-flex" do %>
+        <%= text_field_tag :query,
+                            params[:query],
+                            class: "form-control rounded",
+                            placeholder: "Search destinations..." %>
+        <%= button_tag type: 'submit', name: "", id: "btnsearch", class: "btn btn-secondary" do %>
+          <i class="fas fa-search"></i>
+        <% end %>
+      <% end %>
     </div>
   </div>
   <div class="container">
     <div class="justify-content-between my-5 text-center container-info">
-      <h2 class="my-3">Why should you use BarkBuddy?</h2>
+      <h2 class="my-3">Explore a variety of places to stay, eat, and explore with your perri!</h2>
       <div class="d-flex justify-content-between my-3">
         <div class="my-3 col-lg-4">
-          <h3>Community</h3>
-          <p>Join similar minded people in your local area who are part of BarkBuddy</p>
+          <h3>Dog Parent Reviews</h3>
+          <p>Unleash your senses and dig through a plethora of reviews to fetch the top dog-friendly hotels, restaurants, and attractions.</p>
         </div>
         <div class="my-3 col-lg-4">
-          <h3>Safety</h3>
-          <p>Know that you're using a platform where dog-sitters are vetted and have passed a safety check</p>
+          <h3>Doggie Customer Service</h3>
+          <p>When you book a stay with us, our Doggie Service guarantees that you'll be assigned a room that's tail-waggingly friendly to dogs so there are no surprises during check-in.</p>
         </div>
         <div class="my-3 col-lg-4">
-          <h3>Good Vibes</h3>
-          <p>By being part of BarkBuddy, know that you're sharing the love of taking care of dogs</p>
+          <h3>No Fees For Your Perri</h3>
+          <p>Enjoy the fun of booking somewhere to stay without any additional costs associated with bookings</p>
         </div>
       </div>
       <div class="justify-content-center">
-        <%# <%= link_to "Meet the dogs in your area!", dogs_index_path, class: "btn btn-info my-3 col-sm-3" %> %>
+        <%= link_to "Look for dog-friendly hotels!", "", class: "btn btn-primary my-3 col-sm-3" %>
       </div>
     </div>
-    <div class="cards">
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80)">
-        Rupert
+    <div class="my-3 cards">
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
+        Amsterdam
       </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/20183655/German-Pinscher-standing-near-a-lake.jpg)">
-        Rufus
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmFyY2Vsb25hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
+        Barcelona
       </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*)">
-        Mutley
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1560969184-10fe8719e047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVybGlufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
+        Berlin
       </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAKNz1-J7ZuylwM9AJ7wWztDXXmSWvirbWQ&usqp=CAU)">
-        Duke
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9uZG9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
+        London
       </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://media.istockphoto.com/id/1388796467/photo/adorable-young-bichon-frise-puppy-walks-around-the-sunny-spring-lawn-active-cute-puppy.jpg?s=612x612&w=0&k=20&c=HxqL0MxV-whnGOU_tgnTYC9Ajj0m77iorASymQqYQ1w=)">
-        Binny
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1568693059993-a239b9cd4957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmV3JTIwb3JsZWFuc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60)">
+        New Orleans
       </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39E-qztdLhp_9_67M1PwGi0cVJZiewthBAA&usqp=CAU)">
-        Smokey
-      </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWu5meYDlGASCjdmSLMYSL_cM8LdwLUgcfA&usqp=CAU)">
-        Snowball
-      </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://hips.hearstapps.com/hmg-prod/images/lifestyle-bestdogbreeds-1577128927.png?crop=1.00xw:1.00xh;0,0&resize=1200:*)">
-        Buddy
-      </div>
-
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo8EI_ZzLQDfMkZ5mLQaQLfUwb_dgPDK8PKQ&usqp=CAU)">
-        Rocky
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1418075285575-c402f1f7340f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5ldyUyMHlvcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60)">
+        New York
       </div>
     </div>
   </div>
