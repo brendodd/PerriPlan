@@ -14,7 +14,16 @@ info = JSON.parse(serialized_hotel)
 puts "Creating hotels... 🏨"
 
 info['properties'].each do |property|
-  Hotel.create({ name: property['name'] })
+  id = property["id"]
+
+  hotel_file_path = File.join(__dir__, "amsterdam_hotels/#{id}")
+  hotel_info_serialized = File.read(hotel_file_path)
+  hotel_info = JSON.parse(hotel_info_serialized)
+  location = hotel_info["summary"]["location"]["address"]["addressLine"]
+  price_rating = hotel_info["summary"]["overview"]["propertyRating"]["rating"]
+
+
+   Hotel.create({ name: property['name'], location: location, price_rating: price_rating })
 end
 
 puts "Successfully created #{Hotel.count} hotels"
