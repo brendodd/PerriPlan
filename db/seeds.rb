@@ -21,9 +21,9 @@ puts "Successfully created #{Hotel.count} hotels"
 
 puts "Creating cities... 🌆"
 
-amsterdam = City.create!(name: "Amsterdam", country: "Netherlands", latitude: "52.377956", longitude: "4.897070")
-london = City.create!(name: "London", country: "United Kingdom", latitude: "51.509865", longitude: "-0.118092")
-paris = City.create!(name: "Paris", country: "France", latitude: "48.864716", longitude: "2.349014")
+City.create!(name: "Amsterdam", country: "Netherlands", latitude: "52.377956", longitude: "4.897070")
+City.create!(name: "London", country: "United Kingdom", latitude: "51.509865", longitude: "-0.118092")
+City.create!(name: "Paris", country: "France", latitude: "48.864716", longitude: "2.349014")
 
 puts "Successfully created #{City.count} cities"
 
