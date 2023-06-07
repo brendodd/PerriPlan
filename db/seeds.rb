@@ -5,6 +5,7 @@ puts "Clearing database... 🧹"
 City.destroy_all
 Hotel.destroy_all
 Restaurant.destroy_all
+Attraction.destroy_all
 
 filepath = File.join(__dir__, "hotels/ams_hotels.json")
 serialized_hotel = File.read(filepath)
@@ -18,13 +19,13 @@ end
 
 puts "Successfully created #{Hotel.count} hotels"
 
-puts "Creating users... 👤"
+puts "Creating cities... 🌆"
 
 amsterdam = City.create!(name: "Amsterdam", country: "Netherlands", latitude: "52.377956", longitude: "4.897070")
 london = City.create!(name: "London", country: "United Kingdom", latitude: "51.509865", longitude: "-0.118092")
 paris = City.create!(name: "Paris", country: "France", latitude: "48.864716", longitude: "2.349014")
 
-puts "Successfully created #{City.count} users"
+puts "Successfully created #{City.count} cities"
 
 puts "Creating attractions... 🎡"
 
