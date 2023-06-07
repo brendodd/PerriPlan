@@ -13,16 +13,16 @@
           <div class="smol-card-component">
              <%# <%= cl_image_tag hotel.photo.key, class: "smol-card-component-img-top" %>
             <div class="smol-card-component-body">
-              <%= link_to "hotel", "#", class:"btn btn-info fw-bold" %>
+              <%= link_to "Book Now", "", class:"btn btn-info fw-bold" %>
               <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-hotel"></i> <%= hotel.name %></p>
-              <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= hotel.location %></p>
+              <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= "hotel.location" %></p>
             </div>
           </div>
         </div>
       <% end %>
     </div>
   </div>
- <div class="sticky-map" style="position: sticky !important; width: 50%; height: 100vh;"
+    <div class="sticky-map" style="position: sticky !important; top: 10px; width: 50%; height: 100vh;"
     data-controller="map"
     data-map-markers-value="<%= @markers.to_json %>"
     data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"></div>
