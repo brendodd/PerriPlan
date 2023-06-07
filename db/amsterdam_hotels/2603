@@ -1,0 +1,4808 @@
+{
+  "__typename": "PropertyInfo",
+  "summary": {
+    "__typename": "PropertySummary",
+    "fees": null,
+    "id": "2603",
+    "name": "Kimpton De Witt Amsterdam, an IHG Hotel",
+    "map": {
+      "__typename": "PropertyInfoMap",
+      "markers": [
+        {
+          "__typename": "PointOfInterest",
+          "mapMarker": {
+            "__typename": "MapMarker",
+            "icon": "AIRPORT",
+            "latLong": {
+              "__typename": "Coordinates",
+              "latitude": 52.310138,
+              "longitude": 4.763419
+            },
+            "type": "POI"
+          },
+          "poiContent": {
+            "__typename": "PoiContent",
+            "description": null,
+            "id": "5459265",
+            "image": {
+              "__typename": "Image",
+              "aspectRatio": null,
+              "description": "",
+              "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/495000/495678-amsterdam-ams-schiphol.jpg"
+            }
+          },
+          "subtitle": "24 min drive",
+          "title": "Amsterdam (AMS-Schiphol)"
+        },
+        {
+          "__typename": "PointOfInterest",
+          "mapMarker": {
+            "__typename": "MapMarker",
+            "icon": "AIRPORT",
+            "latLong": {
+              "__typename": "Coordinates",
+              "latitude": 52.304615,
+              "longitude": 4.694493
+            },
+            "type": "POI"
+          },
+          "poiContent": null,
+          "subtitle": "28 min drive",
+          "title": "Hoofddorp (QHZ)"
+        },
+        {
+          "__typename": "PointOfInterest",
+          "mapMarker": {
+            "__typename": "MapMarker",
+            "icon": "HOTEL",
+            "latLong": {
+              "__typename": "Coordinates",
+              "latitude": 52.37726,
+              "longitude": 4.895365
+            },
+            "type": "HOTEL"
+          },
+          "poiContent": {
+            "__typename": "PoiContent",
+            "description": null,
+            "id": "2603",
+            "image": {
+              "__typename": "Image",
+              "aspectRatio": null,
+              "description": "Nantes featuring heritage elements and heritage architecture",
+              "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/106000/106505-Nantes.jpg"
+            }
+          },
+          "subtitle": null,
+          "title": "Kimpton De Witt Amsterdam, an IHG Hotel"
+        }
+      ]
+    },
+    "policies": {
+      "__typename": "PropertyPolicies",
+      "checkinEnd": null,
+      "checkinInstructions": [
+        "Front desk staff will greet guests on arrival",
+        "For more details, please contact the property using the information on the booking confirmation",
+        "Guests booked in breakfast included rate plans receive breakfast for up to 2 adults who are sharing a guestroom. Breakfast fees apply for additional guests.",
+        "Guests booked in dinner included rate plans receive dinner for up to 2 adults who are sharing a guestroom. Dinner fees apply for additional guests."
+      ],
+      "checkinMinAge": null,
+      "checkinStart": null,
+      "checkoutTime": null,
+      "childAndBed": {
+        "__typename": "PropertyInfoSubSection",
+        "body": [
+          "One child (12 years old and younger) stays free when occupying the parent or guardian's room using existing bedding",
+          "Babysitting* "
+        ],
+        "descriptions": [],
+        "title": null
+      },
+      "needToKnow": {
+        "__typename": "PropertyInfoSubSection",
+        "body": [
+          "Construction is underway at a neighbouring building and there may be noise disturbance from the construction work.",
+          "The property has connecting/adjoining rooms. These are subject to availability and can be requested by contacting the property using the number on the booking confirmation.",
+          "Only registered guests are allowed in the guestrooms. ",
+          "Guests can rest easy knowing that there's a carbon monoxide detector, a fire extinguisher, a smoke detector, a security system, a first aid kit and window guards on site. ",
+          "This property welcomes guests of all sexual orientations and gender identities (LGBTQ+ friendly).",
+          "Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. ",
+          "Special cancellation policies or charges may apply for group reservations (more than 8 rooms for the same property/stay dates).",
+          "This property accepts credit cards and mobile payments. Cash is not accepted. ",
+          "Mobile payment options include: Apple Pay. ",
+          "This property reserves the right to pre-authorise the guest's credit card prior to arrival. "
+        ],
+        "descriptions": [],
+        "title": "You need to know"
+      },
+      "paymentOptions": [],
+      "pets": {
+        "__typename": "PropertyInfoSubSection",
+        "body": [
+          "Pets stay for free",
+          "Service animals welcome",
+          "Pets must be supervised",
+          "Food and water bowls available"
+        ],
+        "descriptions": [],
+        "title": "Pets"
+      },
+      "shouldMention": {
+        "__typename": "PropertyInfoSubSection",
+        "body": [
+          "Only registered guests are allowed in the guestrooms",
+          "The property has connecting/adjoining rooms, which are subject to availability and can be requested by contacting the property using the number on the booking confirmation",
+          "Construction is underway at a neighbouring building and there may be noise disturbance from the construction work",
+          "Parking height restrictions apply",
+          "This property welcomes guests of all sexual orientations and gender identities (LGBTQ+ friendly)"
+        ],
+        "descriptions": [],
+        "title": "We should mention"
+      }
+    },
+    "telesalesPhoneNumber": "",
+    "bannerMessage": null,
+    "latinAlphabetName": "",
+    "tagline": "Luxury hotel with restaurant, near Oude Kerk  \n",
+    "starRatingIcon": {
+      "__typename": "Icon",
+      "token": "STAR"
+    },
+    "overview": {
+      "__typename": "PropertyOverview",
+      "vipMessaging": null,
+      "inventoryType": null,
+      "accessibilityLabel": "Overview of Kimpton De Witt Amsterdam, an IHG Hotel",
+      "label": null,
+      "propertyRating": {
+        "__typename": "EGDSIconRating",
+        "rating": 4.5,
+        "accessibility": "4.5 star property",
+        "icon": {
+          "__typename": "Icon",
+          "id": "star",
+          "description": "star rating",
+          "size": null,
+          "token": "icon__star",
+          "theme": null
+        }
+      }
+    },
+    "featuredMessages": null,
+    "spaceOverview": null,
+    "amenities": {
+      "__typename": "PropertyAmenities",
+      "amenities": [
+        {
+          "__typename": "PropertyInfoSection",
+          "title": "At a glance",
+          "sections": [],
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "At a glance",
+            "subText": null
+          },
+          "contents": [
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Hotel size ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "274 rooms ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Arranged over 7 floors ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Arriving/Leaving",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Check-in time from 3 PM until 5:30 AM ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Early check-in subject to availability ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Late check-in subject to availability ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Minimum check-in age – 18 ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Check-out time is noon ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Late check-out subject to availability ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Restrictions related to your trip",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Check COVID-19 restrictions",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Special check-in instructions",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Front desk staff will greet guests on arrival",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "For more details, please contact the property using the information on the booking confirmation",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Guests booked in breakfast included rate plans receive breakfast for up to 2 adults who are sharing a guestroom. Breakfast fees apply for additional guests.",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Guests booked in dinner included rate plans receive dinner for up to 2 adults who are sharing a guestroom. Dinner fees apply for additional guests.",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Required at check-in",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Credit card, debit card or cash deposit required for incidental charges ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Government-issued photo ID may be required ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Minimum check-in age is 18 ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Children",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "One child (12 years old and younger) stays free when occupying the parent or guardian's room using existing bedding",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Babysitting* ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Pets",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Pets stay for free ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Service animals welcome ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Pets must be supervised ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Food and water bowls available ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Internet ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "wifi",
+                "description": "",
+                "size": null,
+                "token": "wifi",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free WiFi in public areas ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free WiFi in rooms ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Parking ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "local_parking",
+                "description": "",
+                "size": null,
+                "token": "local_parking",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "On-site valet parking (EUR 55 per night) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "On-site parking is limited ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Electric vehicle charging point on site ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Height restrictions apply for on-site parking ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Other information ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Smoke-free property ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PropertyInfoSection",
+          "title": "Property amenities",
+          "sections": [],
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Property amenities",
+            "subText": null
+          },
+          "contents": [
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Food and drink ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "local_dining",
+                "description": "",
+                "size": null,
+                "token": "local_dining",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Buffet breakfast (surcharge) 7:00 AM–11:00 AM on weekdays and 7:00 AM–noon on weekends ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Restaurant ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Bar/lounge ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Coffee/tea in a common area ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "24-hour room service ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Travelling with children ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "family_friendly",
+                "description": "",
+                "size": null,
+                "token": "family_friendly",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Children stay for free (see details) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Babysitting (surcharge) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Working away ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "business_center",
+                "description": "",
+                "size": null,
+                "token": "business_center",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Business centre ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "9 meeting rooms ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Computer station ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Conference space (6480 square feet) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Services ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "room_service",
+                "description": "",
+                "size": null,
+                "token": "room_service",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "24-hour front desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Tour/ticket assistance ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Dry cleaning/laundry services ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free newspapers in reception ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Luggage storage ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wedding services ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Multilingual staff ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Porter/bellhop ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free bike hire ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Facilities ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "1 building/tower ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Built in 1987 ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Safe-deposit box at front desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Fireplace in reception ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "24-hour fitness centre ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Accessibility ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "accessible",
+                "description": "",
+                "size": null,
+                "token": "accessible",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Lift ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Accessible bathroom (selected rooms) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "In-room accessibility (selected rooms) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Roll-in shower (selected rooms) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible path of travel ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Assistive listening devices available ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible path to lift ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible business centre ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible restaurant ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Well-lit path to entrance ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PropertyInfoSection",
+          "title": "Room amenities",
+          "sections": [],
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Room amenities",
+            "subText": null
+          },
+          "contents": [
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Be entertained ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "IPod docking station ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Flat-screen television ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Satellite TV channels ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Films for purchase ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Home comfort ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Air conditioning (climate-controlled) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Minibar ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Espresso maker ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Electric kettle ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Dressing gowns ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Iron/ironing board ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Sleep well ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Pillow menu ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Blackout curtains ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Premium bedding ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free cot/infant bed ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Freshen up ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Shower only ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Designer toiletries ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Hairdryer ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Towels ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Toothbrush and toothpaste (on request) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Toilet paper ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Stay connected ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free WiFi ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Phone ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Food and drink ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "local_dining",
+                "description": "",
+                "size": null,
+                "token": "local_dining",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free bottled water ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "More ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Daily housekeeping ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "In-room safe (laptop compatible) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Connecting/adjoining rooms available ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Eco-friendly toiletries ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topAmenities": {
+        "__typename": "PropertyInfoContent",
+        "header": {
+          "__typename": "LodgingHeader",
+          "text": "Property highlights",
+          "subText": null,
+          "mark": null
+        },
+        "icon": null,
+        "jumpLink": null,
+        "items": [
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Pet-friendly",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "pets",
+              "description": "",
+              "size": null,
+              "token": "pets",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Parking available",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_parking",
+              "description": "",
+              "size": null,
+              "token": "local_parking",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Free WiFi",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "wifi",
+              "description": "",
+              "size": null,
+              "token": "wifi",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Restaurant",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_dining",
+              "description": "",
+              "size": null,
+              "token": "local_dining",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Connecting rooms available",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "room",
+              "description": "",
+              "size": null,
+              "token": "room",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Air conditioning",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "ac_unit",
+              "description": "",
+              "size": null,
+              "token": "ac_unit",
+              "theme": null
+            }
+          }
+        ]
+      },
+      "propertyContentPreferences": null,
+      "amenitiesDialog": {
+        "__typename": "LodgingAmenitiesDialog",
+        "trigger": {
+          "__typename": "LodgingDialogTriggerMessage",
+          "value": "See all",
+          "icon": {
+            "__typename": "Icon",
+            "id": "chevron_right",
+            "description": "View all amenities",
+            "size": null,
+            "token": "icon__chevron_right",
+            "theme": null
+          },
+          "clientSideAnalytics": {
+            "__typename": "ClientSideAnalytics",
+            "linkName": "View all amenities",
+            "referrerId": "HOT.HIS.ViewAllAmenities"
+          }
+        },
+        "toolbar": {
+          "__typename": "LodgingDialogToolbar",
+          "title": "Property amenities"
+        }
+      },
+      "takeover": {
+        "__typename": "PropertyTakeoverAmenities",
+        "amenityClosures": null,
+        "highlight": [
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Popular amenities",
+              "subText": null,
+              "mark": null
+            },
+            "icon": null,
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Pet-friendly",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "pets",
+                  "description": "",
+                  "size": null,
+                  "token": "pets",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Parking available",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "local_parking",
+                  "description": "",
+                  "size": null,
+                  "token": "local_parking",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Free WiFi",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "wifi",
+                  "description": "",
+                  "size": null,
+                  "token": "wifi",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Restaurant",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "local_dining",
+                  "description": "",
+                  "size": null,
+                  "token": "local_dining",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Connecting rooms available",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "room",
+                  "description": "",
+                  "size": null,
+                  "token": "room",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Air conditioning",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "ac_unit",
+                  "description": "",
+                  "size": null,
+                  "token": "ac_unit",
+                  "theme": null
+                }
+              }
+            ]
+          }
+        ],
+        "property": [
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Food and drink ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_dining",
+              "description": "",
+              "size": null,
+              "token": "local_dining",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Buffet breakfast (surcharge) 7:00 AM–11:00 AM on weekdays and 7:00 AM–noon on weekends ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Restaurant ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Bar/lounge ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Coffee/tea in a common area ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "24-hour room service ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Travelling with children ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "family_friendly",
+              "description": "",
+              "size": null,
+              "token": "family_friendly",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Children stay for free (see details) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Babysitting (surcharge) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Working away ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "business_center",
+              "description": "",
+              "size": null,
+              "token": "business_center",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Business centre ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "9 meeting rooms ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Computer station ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Conference space (6480 square feet) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Services ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "room_service",
+              "description": "",
+              "size": null,
+              "token": "room_service",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "24-hour front desk ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Tour/ticket assistance ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Dry cleaning/laundry services ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Free newspapers in reception ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Luggage storage ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wedding services ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Multilingual staff ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Porter/bellhop ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Free bike hire ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Facilities ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "done",
+              "description": "",
+              "size": null,
+              "token": "done",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "1 building/tower ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Built in 1987 ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Safe-deposit box at front desk ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Fireplace in reception ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "24-hour fitness centre ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Accessibility ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "accessible",
+              "description": "",
+              "size": null,
+              "token": "accessible",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Lift ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Accessible bathroom (selected rooms) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "In-room accessibility (selected rooms) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Roll-in shower (selected rooms) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible path of travel ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Assistive listening devices available ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible path to lift ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible business centre ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible restaurant ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Well-lit path to entrance ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "cleaningAndSafety": null,
+    "location": {
+      "__typename": "PropertyLocation",
+      "address": {
+        "__typename": "PropertyAddress",
+        "addressLine": "Nieuwezijds Voorburgwal 5, Amsterdam, 1012 RC",
+        "city": "Amsterdam",
+        "province": "",
+        "countryCode": "NLD",
+        "firstAddressLine": "Nieuwezijds Voorburgwal 5",
+        "secondAddressLine": ""
+      },
+      "coordinates": {
+        "__typename": "Coordinates",
+        "latitude": 52.37726,
+        "longitude": 4.895365
+      },
+      "multiCityRegion": {
+        "__typename": "Region",
+        "id": "178229"
+      },
+      "whatsAround": {
+        "__typename": "PropertyWhatsAround",
+        "editorial": {
+          "__typename": "PropertyEditorial",
+          "title": "Amsterdam",
+          "content": [
+            "Near a metro station, Kimpton De Witt Amsterdam, an IHG Hotel is in Amsterdam City Centre, a neighbourhood in Amsterdam with great shopping. Anne Frank House and Museum Van Loon are cultural highlights, and some of the area's notable landmarks include Westerkerk and Oude Kerk. Travelling with kids? Don't miss Hortus Botanicus. Guests love the hotel's convenience for public transportation: Nieuwezijds Kolk Stop is 3 minutes on foot and Amsterdam Central Metro Station is 7 minutes. "
+          ]
+        }
+      },
+      "mapDialog": {
+        "__typename": "LodgingMapDialog",
+        "trigger": {
+          "__typename": "LodgingDialogTriggerMessage",
+          "value": "View in a map",
+          "icon": {
+            "__typename": "Icon",
+            "id": "chevron_right",
+            "description": "",
+            "size": null,
+            "token": "icon__chevron_right",
+            "theme": null
+          },
+          "clientSideAnalytics": {
+            "__typename": "ClientSideAnalytics",
+            "linkName": "ClickAddressCTALinkViewMap",
+            "referrerId": "HOT.HIS.ClickAddressCTALinkViewMap"
+          }
+        },
+        "toolbar": null
+      },
+      "staticImage": {
+        "__typename": "Image",
+        "description": "Map",
+        "url": "https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=600x120&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C52.37726,4.895365&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=AyPQBGbFJQ3J4SdHR5pxv7sTrk8=",
+        "aspectRatio": null
+      }
+    },
+    "nearbyPOIs": null,
+    "lodgingChatbot": null
+  },
+  "propertyGallery": {
+    "__typename": "PropertyImageGallery",
+    "imagesGrouped": null,
+    "images": [
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523643",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/cf824819.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 2 Double Beds | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "730350923",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b0a678b3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 2 Double Beds | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523670",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/16ea26da.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378046",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/582fa396.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523678",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/e6ba1621.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523648",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/58a7571c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed, Bathtub | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523653",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/aa0531f6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed, Bathtub | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed (Street View) | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523621",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/bd66d9c5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed (Street View) | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523703",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b304b958.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523647",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/dbd3b7ea.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523664",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/37da6bb9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "770324526",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/d619bb6d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523602",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/eb4a6cc1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523617",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/146f6e38.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010245",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/84e01f35.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "726967552",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b8e0984d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Bicycling, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "416921499",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/50c06ec7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Bicycling"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Fitness facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "78598651",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/672bf4cc.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Fitness facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Fitness facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "711270466",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/0ec48e42.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Fitness facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Interior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "112107646",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/e36f9761.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Interior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Interior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "112105781",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/79b11b2f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Interior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Interior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "112107770",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/63a28995.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Interior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Property amenity, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "759806612",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/32f16241.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Property amenity"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Pet-friendly, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "78602240",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/8a791fba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Pet-friendly"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Property amenity, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "711245081",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/ad35ce7d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Property amenity"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523683",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/4eb5a488.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523618",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/dda8d364.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 King Bed, Accessible | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523690",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/cb4e2477.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 King Bed, Accessible | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed, Terrace | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523684",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/81b91ea3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed, Terrace | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 Queen Bed, Balcony (Essential) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690377968",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/67953f95.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 Queen Bed, Balcony (Essential) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523651",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/29c45667.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523680",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/f1aab4da.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523598",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/0b2369c7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "759806613",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/d2a25dd7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523591",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/20e22c27.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "770324208",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/8be6d2c2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "759806617",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/761af8c5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523686",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/c711c46a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523677",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/1c347277.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "734655128",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b5a618ce.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523629",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/25062d91.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523589",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/6cf8e1d6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523691",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/d566d814.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378012",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/5843186b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 Double Bed (City Single) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523634",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/10dca5e6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 Double Bed (City Single) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 King Bed, Balcony (Essential) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523687",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/950a1545.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 King Bed, Balcony (Essential) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed (Street View) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523608",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/500cd1e4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed (Street View) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523624",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/8523f62b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523658",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/00823dc8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 Double Bed (City Single) | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523639",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/39289931.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 Double Bed (City Single) | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523697",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/cdd59afa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "759806615",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/cb8ae2c4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523671",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/243a662a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "771024924",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/a1903ee2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523673",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/64485ae4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "730620760",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/a110b3c9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523645",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/4bf1e1b3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523704",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/d7ebdcc2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Interior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "711245085",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/80540c7f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Interior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523599",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/710ef01c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523635",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/4ad4dcbb.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 Queen Bed, Balcony (Essential) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523601",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b8d6967c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 Queen Bed, Balcony (Essential) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "770329274",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/31acc902.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523642",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/32455812.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed (Street View) | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523660",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/86878c55.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed (Street View) | Bathroom | Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523656",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/dee56c85.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "711245086",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/e5c3f890.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "112105980",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/0a723609.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010249",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/c49c8200.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010242",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/284e944b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010240",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/0d23bb87.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "730620761",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/3f9fbe2c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523620",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/bbbf583d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523604",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/5ec143cc.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed (Street View) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523631",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/db420b27.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed (Street View) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523694",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/6047ff47.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "638073119",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/33bc6604.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523705",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/2ebc0556.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed, Bathtub | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523652",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/7fc3dfbc.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed, Bathtub | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523625",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/673f27b5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "703855378",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/d94f20b5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523594",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/00118858.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523657",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/f1821647.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "738242856",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/c93886fa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Café, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "770325176",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/3fa7e3ed.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Café"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010243",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/89b7f1cf.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523612",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/025d5271.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Interior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "112108032",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/2c795b5b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Interior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523696",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/07a24dea.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378140",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/0e962a58.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523650",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/e82667c3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523667",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/6e747c0e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690377985",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b6a6e129.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523623",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/7e198bf0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523619",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/433eafe2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, designer toiletries, hair dryer, dressing gowns, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "32994533",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/5ee04543.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, designer toiletries, hair dryer, dressing gowns"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "112106092",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/6c87fad7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Cocktail bar, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "711245080",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/w3836h2160x2y0-05134ded.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Cocktail bar"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "751958423",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/3dfdcbfb.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010248",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/4082a1ba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523672",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/cf73cb38.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523674",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/45adbdf2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "724271735",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/08fb39dc.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523632",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/4d7c3e0f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378058",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/c50acb18.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523638",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/f615b755.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523688",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/59e6df60.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523603",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/cffdae4b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523626",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/92ee7c24.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523637",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b1b64ddb.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523607",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/8b2f6111.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010250",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/7929ac26.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523681",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/66aad763.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523590",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/add77e5a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523611",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/f07cd1f7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 Double Bed (City Single) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523616",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/d125e5b7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 Double Bed (City Single) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523663",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/a6acff1e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed, Terrace | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523609",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/e5c444ef.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed, Terrace | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed (Street View) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523613",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/8d0091aa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed (Street View) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010244",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/93ff834c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523627",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/1baa3ea8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010246",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/ebad51c1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523700",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/369bc318.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523640",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/3e891379.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "606171140",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/08582de0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed, Bathtub | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523593",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/f933f480.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed, Bathtub | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378041",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/17495bab.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523701",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/0f09f52b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch and dinner served, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "765010247",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/aba19a69.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch and dinner served"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378005",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/a83ef4d2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, 1 Double Bed (City Single) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378110",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/6e264e28.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, 1 Double Bed (City Single) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378019",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/3d53949e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523676",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/23640f58.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "View from room, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "78599585",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/1ef97a22.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "View from room"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium Room, 1 King Bed, Terrace | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "690378066",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/82eb46e9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium Room, 1 King Bed, Terrace | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523644",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/fa84e03a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523646",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/95c19c45.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523614",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/963a4162.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room amenity, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523649",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/37035c52.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room amenity"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523600",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/117d3e80.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite, 1 King Bed with Sofa bed | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523679",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/43b24945.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523595",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/7ef08515.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523636",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/627d235c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Penthouse, 1 King Bed (De Witt) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523693",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/417d7747.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "32985492",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/20cf2d1e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523685",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/2fd03031.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523662",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/b9731076.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "705523666",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/dd6adef5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Room, Multiple Beds (Little House) | Premium bedding, minibar, in-room safe, desk"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Daily buffet breakfast (EUR 30 per person), image",
+        "actionLabel": "Go to full screen",
+        "imageId": "78600683",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/10000/2700/2603/944ef0d0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Daily buffet breakfast (EUR 30 per person)"
+        }
+      }
+    ],
+    "accessibilityLabel": "Photo gallery for Kimpton De Witt Amsterdam, an IHG Hotel",
+    "thumbnailGalleryDialog": {
+      "__typename": "LodgingGalleryDialog",
+      "trigger": {
+        "__typename": "LodgingDialogTriggerMessage",
+        "value": "148+",
+        "icon": {
+          "__typename": "Icon",
+          "id": "photo_library",
+          "description": "",
+          "size": null,
+          "token": "icon__photo_library",
+          "theme": null
+        },
+        "clientSideAnalytics": {
+          "__typename": "ClientSideAnalytics",
+          "linkName": "Close Thumbnail Gallery Dialog via Cross button",
+          "referrerId": "App.HOT.HIS.PhotoGalleryTrigger.Close"
+        }
+      },
+      "toolbar": {
+        "__typename": "LodgingDialogToolbar",
+        "title": "Kimpton De Witt Amsterdam, an IHG Hotel",
+        "icon": {
+          "__typename": "Icon",
+          "id": "arrow_back",
+          "description": "Cancel, go back to property details",
+          "size": null,
+          "token": "icon__arrow_back",
+          "theme": null
+        },
+        "clientSideAnalytics": null
+      }
+    },
+    "mediaGalleryDialog": {
+      "__typename": "LodgingGalleryDialog",
+      "trigger": {
+        "__typename": "LodgingDialogTriggerMessage",
+        "value": "148+",
+        "icon": null,
+        "clientSideAnalytics": null
+      },
+      "toolbar": {
+        "__typename": "LodgingDialogToolbar",
+        "title": "Kimpton De Witt Amsterdam, an IHG Hotel",
+        "icon": {
+          "__typename": "Icon",
+          "id": "close",
+          "description": "Cancel, go back to property details",
+          "size": null,
+          "token": "icon__close",
+          "theme": null
+        },
+        "clientSideAnalytics": null
+      }
+    }
+  },
+  "reviewInfo": {
+    "__typename": "PropertyReviews",
+    "summary": {
+      "__typename": "PropertyReviewSummary",
+      "overallScoreWithDescriptionA11y": {
+        "__typename": "LodgingEnrichedMessage",
+        "value": "9.2/10 Superb"
+      },
+      "propertyReviewCountDetails": {
+        "__typename": "PropertyReviewCountDetails",
+        "shortDescription": "See all 1,000 reviews"
+      },
+      "highlightMessage": {
+        "__typename": "MessageResult",
+        "subtitle": {
+          "__typename": "MessagingResultTitle",
+          "text": "1,000 verified Hotels.com guest reviews"
+        }
+      },
+      "seeAllAction": {
+        "__typename": "PropertyFilteredReviewsDialog",
+        "trigger": {
+          "__typename": "LodgingDialogTriggerMessage",
+          "clientSideAnalytics": {
+            "__typename": "ClientSideAnalytics",
+            "linkName": "Open property reviews dialog",
+            "referrerId": "PropertyReviews.Open"
+          }
+        }
+      }
+    }
+  },
+  "propertyContentSectionGroups": {
+    "__typename": "PropertyContentSectionGroups",
+    "cleanliness": {
+      "__typename": "PropertyContentSectionGroup",
+      "sectionName": "cleaningAndSafetyPractices",
+      "sections": [
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": "cleaningAndSafetyPractices",
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Cleaning and safety practices",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Enhanced cleanliness measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "cleanliness",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__cleanliness",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Disinfectant is used to clean the property",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "High-touch surfaces are cleaned and disinfected",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Sheets and towels are washed at 60°C or hotter",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Follows the standard cleaning and disinfection practices of Clean Promise (IHG) ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Check-in",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "social_distance",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__social_distance",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Contactless social distancing and check-out",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Cashless transactions are available for all charges at the property ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Contactless room service is available. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Safety measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "done",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__done",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Masks and gloves available",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Hand sanitiser provided",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Enhanced food service safety measures are in place ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Individually wrapped food options available for breakfast, lunch, dinner and through room service",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": null,
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "This information is provided by our partners.",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        }
+      ]
+    },
+    "aboutThisProperty": {
+      "__typename": "PropertyContentSectionGroup",
+      "sectionName": null,
+      "sections": [
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": null,
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "About this property",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Kimpton De Witt Amsterdam, an IHG Hotel",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "Kimpton De Witt Amsterdam, an IHG Hotel offers a great location, putting you within a 15-minute walk of Dam Square and Anne Frank House. Guests can visit the 24-hour fitness centre for a workout or grab a bite to eat at Celia, which serves breakfast, lunch and dinner. Other highlights at this luxurious hotel include a bar/lounge and free bike rentals. Fellow travellers like that it's only a short walk to public transportation: Nieuwezijds Kolk Stop is 3 minutes away and Amsterdam Central Metro Station is 7 minutes. ",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Languages ",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Dutch, English, French, German, Greek, Italian, Spanish ",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        },
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": "cleaningAndSafetyPractices",
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Cleaning and safety practices",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Enhanced cleanliness measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "cleanliness",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__cleanliness",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Disinfectant is used to clean the property",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "High-touch surfaces are cleaned and disinfected",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Sheets and towels are washed at 60°C or hotter",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Follows the standard cleaning and disinfection practices of Clean Promise (IHG) ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Check-in",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "social_distance",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__social_distance",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Contactless social distancing and check-out",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Cashless transactions are available for all charges at the property ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Contactless room service is available. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Safety measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "done",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__done",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Masks and gloves available",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Hand sanitiser provided",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Enhanced food service safety measures are in place ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Individually wrapped food options available for breakfast, lunch, dinner and through room service",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": null,
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "This information is provided by our partners.",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        }
+      ]
+    },
+    "policies": {
+      "__typename": "PropertyContentSectionGroup",
+      "sectionName": "Policies",
+      "sections": [
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": null,
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Fees & policies",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Refundable deposits",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li><strong>Deposit:</strong> EUR 50 per night</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Mandatory fees",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "You'll be asked to pay the following charges by the property at check-in or check-out: <br/>",
+                        "markupType": "HTML"
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li><strong>A tax</strong> is imposed by the city: EUR 3.00 per person, per night, up to 21 nights. This tax does not apply to children under 16 years of age.</li> <li>An effective <strong>city/local tax</strong> rate of 6.422 per cent will be charged</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Optional extras",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li><strong>Buffet breakfast</strong> is offered for an extra charge of approximately EUR 30 for adults and EUR 30 for children</li> <li><strong>Early check-in</strong> can be arranged for an extra charge (subject to availability)</li> <li><strong>Late check-out</strong> can be arranged for an extra charge (subject to availability)</li>  </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Children & extra beds",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li>Babysitting is available for an extra charge</li> <li>Rollaway beds are available for EUR 45.0 per night</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Parking",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li>Valet parking costs EUR 55 per night</li> <li>Parking height restrictions apply</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Hygiene & cleanliness",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property; commonly touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60°C/140°F.</p><p>Personal protective equipment, including masks and gloves, will be available to guests.</p><p>Guests are provided with hand sanitiser; cashless payment methods are available for all transactions; contactless room service is available.</p><p>Contactless check-in and contactless check-out are available.</p><p>Enhanced food service safety measures are in place.</p> <p>Individually wrapped food options are available for breakfast, lunch and dinner, and also through room service.</p><p>This property affirms that it follows the cleaning and disinfection practices of Clean Promise (IHG) guidelines.</p> ",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Policies",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Construction is underway at a neighbouring building and there may be noise disturbance from the construction work.",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "The property has connecting/adjoining rooms. These are subject to availability and can be requested by contacting the property using the number on the booking confirmation.",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Only registered guests are allowed in the guestrooms. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Guests can rest easy knowing that there's a carbon monoxide detector, a fire extinguisher, a smoke detector, a security system, a first aid kit and window guards on site. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "This property welcomes guests of all sexual orientations and gender identities (LGBTQ+ friendly).",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Special cancellation policies or charges may apply for group reservations (more than 8 rooms for the same property/stay dates).",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "This property accepts credit cards and mobile payments. Cash is not accepted. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Mobile payment options include: Apple Pay. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "This property reserves the right to pre-authorise the guest's credit card prior to arrival. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Also known as",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Amsterdam City Centre Crowne Plaza",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton Witt Amsterdam Hotel",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Crowne Plaza Hotel Amsterdam City Centre",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Crowne Plaza Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Crowne Plaza City Centre Hotel Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Crowne Plaza Hotel Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Crowne Plaza Amsterdam City Centre Hotel",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton Witt Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton Witt",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton De Witt Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton Witt Amsterdam, An Ihg",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton De Witt Amsterdam, an IHG Hotel Hotel",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton De Witt Amsterdam, an IHG Hotel Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Kimpton De Witt Amsterdam, an IHG Hotel Hotel Amsterdam",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        }
+      ]
+    },
+    "importantInfo": null
+  },
+  "saveTripItem": null
+}
