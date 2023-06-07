@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container mb-5">
   <h2>Log in</h2>
     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo: :false }) do |f| %>
       <div class="form-inputs">
@@ -14,9 +14,6 @@
       <div>
         <div class="btn btn-primary form-actions">
           <%= f.button :submit, "Login" %>
-        </div>
-        <div class="btn btn-primary form-actions">
-          <%= f.button :submit, "Sign Up" %>
         </div>
       </div>
     <% end %>
