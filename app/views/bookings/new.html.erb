@@ -1,0 +1,8 @@
+<h1>Your Booking</h1>
+<%= simple_form_for [@hotel, @booking] do |f| %>
+  <%= f.input :timestamp %>
+  <%= f.input :timestamp %>
+  <%= f.input :varchar %>
+  <%= f.input :timestamp %>
+  <%= f.submit "Submit review", class: "btn btn-primary" %>
+<% end %>
