@@ -32,7 +32,10 @@ puts "Creating cities... 🌆"
 
 City.create!(name: "Amsterdam", country: "Netherlands", latitude: "52.377956", longitude: "4.897070")
 City.create!(name: "London", country: "United Kingdom", latitude: "51.509865", longitude: "-0.118092")
-City.create!(name: "Paris", country: "France", latitude: "48.864716", longitude: "2.349014")
+City.create!(name: "Barcelona", country: "Spain", latitude: "41.3851", longitude: "2.1734")
+City.create!(name: "Berlin", country: "Germany", latitude: "52.5200", longitude: "13.4050")
+City.create!(name: "New Orleans", country: "Louisiana", latitude: "29.9511", longitude: "90.0715")
+City.create!(name: "New York", country: "New York", latitude: "40.7128", longitude: "74.0060")
 
 puts "Successfully created #{City.count} cities"
 
