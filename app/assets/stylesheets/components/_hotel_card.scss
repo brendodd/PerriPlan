@@ -77,14 +77,16 @@ text-decoration: none;
   background: #eee;
   text-align: center;
   h1 {
-      font-size: 2rem;
-      margin: 0;
+      font-size: 3rem;
+      margin: 20;
       letter-spacing: 1rem;
+      font-family: "Century Gothic", 'Lato', sans-serif;
   }
   h3 {
-      font-size: 1rem;
+      font-size: 2rem;
       letter-spacing: 0.3rem;
       opacity: 0.6;
+      font-family: "Century Gothic", 'Lato', sans-serif;
   }
 }
 
@@ -133,10 +135,12 @@ text-decoration: none;
 .et-hero-tabs,
 .et-slide {
   h1 {
-      font-size: 3rem;
+      font-size: 1rem;
+      font-family: "Century Gothic", 'Lato', sans-serif;
   }
   h3 {
       font-size: 1rem;
+      font-family: "Century Gothic", 'Lato', sans-serif;
   }
 }
 .et-hero-tab {
