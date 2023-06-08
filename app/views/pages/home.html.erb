@@ -4,8 +4,8 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <h1>Where are you going to go with your Perri?</h1>
-      <%= form_with method: :get, class: "d-flex" do %>
+      <h1>Where are you going with your Perri?</h1>
+      <%= form_with method: :get, class: "d-flex my-4" do %>
         <%= text_field_tag :query,
                             params[:query],
                             class: "form-control rounded",
@@ -38,9 +38,11 @@
       </div>
     </div>
     <div class="my-3 cards">
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
-        Amsterdam
-      </div>
+      <%= link_to city_path(City.first) do %>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
+          Amsterdam
+        </div>
+      <% end %>
       <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmFyY2Vsb25hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)">
         Barcelona
       </div>

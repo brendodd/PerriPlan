@@ -58,7 +58,7 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 310px 300px;
+  padding: 340px 300px;
 }
 
 .banner h1 {
@@ -84,7 +84,7 @@
   height: 100px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
-  width: 100%;
+  // width: 100%;
 }
 .footer-links {
   display: flex;
@@ -109,9 +109,8 @@
 }
 
 .main-container {
-  min-height: calc(100vh - 106px);
-  overflow: hidden;
-  display: block;
-  position: relative;
-  padding-bottom: 100px;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
 }
