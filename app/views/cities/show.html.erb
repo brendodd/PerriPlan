@@ -11,8 +11,10 @@
     <!-- Hero -->
     <!-- Main -->
     <main class="et-main">
-      <section class="et-slide p-4" id="hotels">
-        <h1>Hotels</h1>
+      <section class="et-slide p-4">
+        <div id="hotels">
+          <h1>Hotels</h1>
+        </div>
         <div class="row">
           <% @hotels.each do |hotel| %>
             <div class="col-md-6 mb-4">
@@ -30,8 +32,10 @@
           <% end %>
         </div>
       </section>
-      <section class="et-slide p-4" id="fooddrink">
-        <h1>Food & Drink</h1>
+      <section class="et-slide p-4">
+        <div id="fooddrink">
+          <h1>Food & Drink</h1>
+        </div>
         <div class="row">
           <% @hotels.each do |hotel| %>
             <div class="col-md-6 mb-4">
@@ -49,8 +53,10 @@
           <% end %>
         </div>
       </section>
-      <section class="et-slide p-4" id="attractions">
-        <h1>Attractions</h1>
+      <section class="et-slide p-4">
+        <div id="attractions">
+          <h1>Attractions</h1>
+        </div>
         <div class="row">
           <% @hotels.each do |hotel| %>
             <div class="col-md-6 mb-4">
