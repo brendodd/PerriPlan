@@ -1,5 +1,22 @@
-<div class="container">
-  <h1><%= @hotel.name %></h1>
-  <h1><%= @hotel.location %></h1>
-  <h1><%= @hotel.price_rating %></h1>
+<div class="container mt-3">
+  <div class="row">
+    <div class="d-flex justify-content-space-between">
+      <a class="et-hero-tab" href="#tab-es6">Hotels</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Food & Drink</a>
+      <a class="et-hero-tab" href="#tab-react">Attractions</a>
+    </div>
+    <div class="hotel-info ">
+    <div>
+      <h1><%= @hotel.name %></h1>
+      <h1><%= @hotel.location %></h1>
+      <h1><%= @hotel.price_rating %></h1>
+    </div>
+    <img src="" alt="">
+    </div>
+    <div class="map">
+       Map
+    </div>
+
+  </div>
+
 </div>
