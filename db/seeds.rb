@@ -3,7 +3,7 @@ require "open-uri"
 
 puts "Clearing database... 🧹"
 # City.destroy_all
-# Hotel.destroy_all
+ Hotel.destroy_all
 # Restaurant.destroy_all
 # Attraction.destroy_all
 
@@ -15,19 +15,20 @@ puts "Creating hotels... 🏨"
 
 info['properties'].each do |property|
   id = property["id"]
+  p id
 
   hotel_file_path = File.join(__dir__, "amsterdam_hotels/#{id}")
   hotel_info_serialized = File.read(hotel_file_path)
   hotel_info = JSON.parse(hotel_info_serialized)
   location = hotel_info["summary"]["location"]["address"]["addressLine"]
   price_rating = hotel_info["summary"]["overview"]["propertyRating"]["rating"]
-  #  image_url = hotel_info["propertyGallery"]["images"].first
-  #     image_url = image_url["image"]["url"]
-  #     p image_url
+  image_url = hotel_info["propertyGallery"]["images"].first
+  image_url = image_url["image"]["url"]
+  p image_url
   longitude = hotel_info["summary"]["location"]["coordinates"]["longitude"]
   latitude = hotel_info["summary"]["location"]["coordinates"]["latitude"]
 
-   Hotel.create({ name: property['name'], location: location, price_rating: price_rating, longitude: longitude, latitude: latitude })
+    Hotel.create({ name: property['name'], location: location, price_rating: price_rating, image_url: image_url, longitude: longitude, latitude: latitude })
 end
 
 puts "Successfully created #{Hotel.count} hotels"

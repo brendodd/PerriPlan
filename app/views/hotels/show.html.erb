@@ -1,20 +1,26 @@
 <div class="container mt-3">
   <div class="row">
-    <div class="d-flex justify-content-space-between">
-      <a class="et-hero-tab" href="#tab-es6">Hotels</a>
-      <a class="et-hero-tab" href="#tab-flexbox">Food & Drink</a>
-      <a class="et-hero-tab" href="#tab-react">Attractions</a>
+    <div class="d-flex justify-content-between">
+      <a  class="btn btn-primary" href="#tab-es6">Hotels</a>
+      <a  class="btn btn-primary" href="#tab-flexbox">Food & Drink</a>
+      <a  class="btn btn-primary" href="#tab-react">Attractions</a>
     </div>
-    <div class="hotel-info ">
-    <div>
-      <h1><%= @hotel.name %></h1>
-      <h1><%= @hotel.location %></h1>
-      <h1><%= @hotel.price_rating %></h1>
+    <div class=" my-5 d-flex justify-content-between hotel-info ">
+      <div class="my-5 d-flex flex-column justify-content-between" >
+        <h3><strong><%= @hotel.name %></strong></h3>
+        <h4>Address: <strong><%= @hotel.location %></strong></h4>
+        <h4>Price Rating: <strong><%= @hotel.price_rating %></strong></h4>
+
+      </div>
+
+      <%= image_tag "#{@hotel.image_url}", alt: "Hotel Image" %>
     </div>
-    <img src="" alt="">
-    </div>
+
+      <%= link_to "Book", root_path, class:"btn btn-primary bookBtn"  %>
+
+
     <div class="map">
-       Map
+      <h1>Map Placeholder</h1>
     </div>
 
   </div>
