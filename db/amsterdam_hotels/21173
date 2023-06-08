@@ -1,1 +1,3242 @@
-{"__typename":"PropertyInfo","summary":{"__typename":"PropertySummary","fees":null,"id":"21173","name":"Fletcher Hotel-Restaurant Amersfoort","map":{"__typename":"PropertyInfoMap","markers":[{"__typename":"PointOfInterest","mapMarker":{"__typename":"MapMarker","icon":"AIRPORT","latLong":{"__typename":"Coordinates","latitude":52.310138,"longitude":4.763419},"type":"POI"},"poiContent":{"__typename":"PoiContent","description":null,"id":"5459265","image":{"__typename":"Image","aspectRatio":null,"description":"","url":"https://a.travel-assets.com/findyours-php/viewfinder/images/res70/495000/495678-amsterdam-ams-schiphol.jpg"}},"subtitle":"48 min drive","title":"Amsterdam (AMS-Schiphol)"},{"__typename":"PointOfInterest","mapMarker":{"__typename":"MapMarker","icon":"AIRPORT","latLong":{"__typename":"Coordinates","latitude":52.133024,"longitude":5.276767},"type":"POI"},"poiContent":null,"subtitle":"7 min drive","title":"Utrecht (UTC-Soesterberg Air Base)"},{"__typename":"PointOfInterest","mapMarker":{"__typename":"MapMarker","icon":"HOTEL","latLong":{"__typename":"Coordinates","latitude":52.13749,"longitude":5.3582},"type":"HOTEL"},"poiContent":{"__typename":"PoiContent","description":null,"id":"21173","image":null},"subtitle":null,"title":"Fletcher Hotel-Restaurant Amersfoort"}]},"policies":{"__typename":"PropertyPolicies","checkinEnd":null,"checkinInstructions":["Front desk staff will greet guests on arrival"],"checkinMinAge":null,"checkinStart":null,"checkoutTime":null,"childAndBed":null,"needToKnow":{"__typename":"PropertyInfoSubSection","body":["This property uses solar energy, plus eco-friendly cleaning products.  ","Special cancellation policies or charges may apply for group reservations (more than 8 rooms for the same property/stay dates).","This property accepts credit cards and debit cards. Cash is not accepted. "],"descriptions":[],"title":"You need to know"},"paymentOptions":[],"pets":{"__typename":"PropertyInfoSubSection","body":["Pets allowed*","Service animals welcome","Restrictions apply*"],"descriptions":[],"title":"Pets"},"shouldMention":null},"telesalesPhoneNumber":"","bannerMessage":null,"latinAlphabetName":"","tagline":"4-star hotel in Zon en Schild with restaurant and bar/lounge  \n","starRatingIcon":{"__typename":"Icon","token":"STAR"},"overview":{"__typename":"PropertyOverview","vipMessaging":null,"inventoryType":null,"accessibilityLabel":"Overview of Fletcher Hotel-Restaurant Amersfoort","label":null,"propertyRating":{"__typename":"EGDSIconRating","rating":4,"accessibility":"4.0 star property","icon":{"__typename":"Icon","id":"star","description":"star rating","size":null,"token":"icon__star","theme":null}}},"featuredMessages":null,"spaceOverview":null,"amenities":{"__typename":"PropertyAmenities","amenities":[{"__typename":"PropertyInfoSection","title":"At a glance","sections":[],"header":{"__typename":"LodgingHeader","icon":null,"text":"At a glance","subText":null},"contents":[{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Hotel size ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"94 rooms ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Arranged over 2 floors ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Arriving/Leaving","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Check-in time from 3:00 PM until anytime ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Express check-out available ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Minimum check-in age – 18 ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Check-out time is 11 AM ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Restrictions related to your trip","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Check COVID-19 restrictions","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Special check-in instructions","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Front desk staff will greet guests on arrival","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Required at check-in","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Credit card, debit card or cash deposit required for incidental charges ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Government-issued photo ID may be required ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Minimum check-in age is 18 ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Pets","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Pets allowed* ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Service animals welcome ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Restrictions apply* ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Internet ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"wifi","description":"","size":null,"token":"wifi","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Free WiFi and wired Internet access in public areas ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Free WiFi in rooms ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Parking ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"local_parking","description":"","size":null,"token":"local_parking","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Free on-site self-parking ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Electric vehicle charging point on site ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Other information ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Smoke-free property ","state":null,"moreInfo":null,"icon":null}]}]},{"__typename":"PropertyInfoSection","title":"Property amenities","sections":[],"header":{"__typename":"LodgingHeader","icon":null,"text":"Property amenities","subText":null},"contents":[{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Food and drink ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"local_dining","description":"","size":null,"token":"local_dining","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Buffet breakfast (surcharge) 7:00 AM–10:00 AM on weekdays and 8:00 AM–10:30 AM on weekends ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Restaurant ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bar/lounge ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Coffee shop ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Coffee/tea in a common area ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Room service (limited hours) ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Travelling with children ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"family_friendly","description":"","size":null,"token":"family_friendly","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Playground ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"What to do ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"lob_activities","description":"","size":null,"token":"lob_activities","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Mountain biking ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Pool table ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Golfing nearby ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Hiking/biking trails nearby ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Working away ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"business_center","description":"","size":null,"token":"business_center","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Business centre ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Meeting rooms ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Conference space ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Services ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"room_service","description":"","size":null,"token":"room_service","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"24-hour front desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Concierge services ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Dry cleaning/laundry services ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Free newspapers in reception ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Luggage storage ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wedding services ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Multilingual staff ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Porter/bellhop ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bike hire ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Facilities ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Safe-deposit box at front desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Garden ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Picnic area ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Terrace ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bike parking ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Vegan dining options ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Vegetarian dining options ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Humane treatment of captive wild animals ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"At least 80% of lighting from LEDs ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Comprehensive food waste policy ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"No plastic coffee stirrers ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"No plastic drinking straws ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Reusable cups only ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Reusable tableware only ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Accessibility ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"accessible","description":"","size":null,"token":"accessible","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Lift ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Accessible bathroom (selected rooms) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"In-room accessibility (selected rooms) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Roll-in shower (selected rooms) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible registration desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible restaurant ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible lounge ","state":null,"moreInfo":null,"icon":null}]}]},{"__typename":"PropertyInfoSection","title":"Room amenities","sections":[],"header":{"__typename":"LodgingHeader","icon":null,"text":"Room amenities","subText":null},"contents":[{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Be entertained ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Flat-screen television ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Satellite TV channels ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Home comfort ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Coffee/tea maker ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Iron/ironing board (on request) ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Sleep well ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Blackout curtains ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Turndown service ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bed sheets provided ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Freshen up ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Shower only ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Eco-friendly toiletries ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Hairdryer (on request) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Towels ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Stay connected ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Free WiFi ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Phone ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"More ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Daily housekeeping ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Eco-friendly toiletries ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"LED light bulbs ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Water-efficient showers only ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Water-efficient toilets only ","state":null,"moreInfo":null,"icon":null}]}]}],"topAmenities":{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Property highlights","subText":null,"mark":null},"icon":null,"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Pet-friendly","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"pets","description":"","size":null,"token":"pets","theme":null}},{"__typename":"PropertyInfoItem","text":"Free parking","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_parking","description":"","size":null,"token":"local_parking","theme":null}},{"__typename":"PropertyInfoItem","text":"Free WiFi","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"wifi","description":"","size":null,"token":"wifi","theme":null}},{"__typename":"PropertyInfoItem","text":"Restaurant","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_dining","description":"","size":null,"token":"local_dining","theme":null}},{"__typename":"PropertyInfoItem","text":"Bar","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_bar","description":"","size":null,"token":"local_bar","theme":null}},{"__typename":"PropertyInfoItem","text":"Laundry facilities","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_laundry_service","description":"","size":null,"token":"local_laundry_service","theme":null}}]},"propertyContentPreferences":null,"amenitiesDialog":{"__typename":"LodgingAmenitiesDialog","trigger":{"__typename":"LodgingDialogTriggerMessage","value":"See all","icon":{"__typename":"Icon","id":"chevron_right","description":"View all amenities","size":null,"token":"icon__chevron_right","theme":null},"clientSideAnalytics":{"__typename":"ClientSideAnalytics","linkName":"View all amenities","referrerId":"HOT.HIS.ViewAllAmenities"}},"toolbar":{"__typename":"LodgingDialogToolbar","title":"Property amenities"}},"takeover":{"__typename":"PropertyTakeoverAmenities","amenityClosures":null,"highlight":[{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Popular amenities","subText":null,"mark":null},"icon":null,"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Pet-friendly","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"pets","description":"","size":null,"token":"pets","theme":null}},{"__typename":"PropertyInfoItem","text":"Free parking","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_parking","description":"","size":null,"token":"local_parking","theme":null}},{"__typename":"PropertyInfoItem","text":"Free WiFi","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"wifi","description":"","size":null,"token":"wifi","theme":null}},{"__typename":"PropertyInfoItem","text":"Restaurant","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_dining","description":"","size":null,"token":"local_dining","theme":null}},{"__typename":"PropertyInfoItem","text":"Bar","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_bar","description":"","size":null,"token":"local_bar","theme":null}},{"__typename":"PropertyInfoItem","text":"Laundry facilities","state":null,"moreInfo":null,"icon":{"__typename":"Icon","id":"local_laundry_service","description":"","size":null,"token":"local_laundry_service","theme":null}}]}],"property":[{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Food and drink ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"local_dining","description":"","size":null,"token":"local_dining","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Buffet breakfast (surcharge) 7:00 AM–10:00 AM on weekdays and 8:00 AM–10:30 AM on weekends ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Restaurant ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bar/lounge ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Coffee shop ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Coffee/tea in a common area ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Room service (limited hours) ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Travelling with children ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"family_friendly","description":"","size":null,"token":"family_friendly","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Playground ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"What to do ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"lob_activities","description":"","size":null,"token":"lob_activities","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Mountain biking ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Pool table ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Golfing nearby ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Hiking/biking trails nearby ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Working away ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"business_center","description":"","size":null,"token":"business_center","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Business centre ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Meeting rooms ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Conference space ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Services ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"room_service","description":"","size":null,"token":"room_service","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"24-hour front desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Concierge services ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Dry cleaning/laundry services ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Free newspapers in reception ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Luggage storage ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wedding services ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Multilingual staff ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Porter/bellhop ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bike hire ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Facilities ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"done","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Safe-deposit box at front desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Garden ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Picnic area ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Terrace ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Bike parking ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Vegan dining options ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Vegetarian dining options ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Humane treatment of captive wild animals ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"At least 80% of lighting from LEDs ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Comprehensive food waste policy ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"No plastic coffee stirrers ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"No plastic drinking straws ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Reusable cups only ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Reusable tableware only ","state":null,"moreInfo":null,"icon":null}]},{"__typename":"PropertyInfoContent","header":{"__typename":"LodgingHeader","text":"Accessibility ","subText":null,"mark":null},"icon":{"__typename":"Icon","id":"accessible","description":"","size":null,"token":"accessible","theme":null},"jumpLink":null,"items":[{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Lift ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Accessible bathroom (selected rooms) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"In-room accessibility (selected rooms) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Roll-in shower (selected rooms) ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible registration desk ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible restaurant ","state":null,"moreInfo":null,"icon":null},{"__typename":"PropertyInfoItem","text":"Wheelchair-accessible lounge ","state":null,"moreInfo":null,"icon":null}]}]}},"cleaningAndSafety":null,"location":{"__typename":"PropertyLocation","address":{"__typename":"PropertyAddress","addressLine":"Stichtse Rotonde 11, Amersfoort, 3818 GV","city":"Amersfoort","province":"","countryCode":"NLD","firstAddressLine":"Stichtse Rotonde 11","secondAddressLine":""},"coordinates":{"__typename":"Coordinates","latitude":52.13749,"longitude":5.3582},"multiCityRegion":{"__typename":"Region","id":"null"},"whatsAround":{"__typename":"PropertyWhatsAround","editorial":{"__typename":"PropertyEditorial","title":"Amersfoort","content":["Fletcher Hotel-Restaurant Amersfoort is located in Zon en Schild, a neighbourhood in Amersfoort. Hoog Catharijne and Scheepjeshof are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Park Soesterberg Airbase and Griftpark. Ready for a night out? Consider Tivoli and TivoliVredenburg. Break out the clubs and hit the links on a nearby golf course, or seek out an adventure with hiking/biking trails. "]}},"mapDialog":{"__typename":"LodgingMapDialog","trigger":{"__typename":"LodgingDialogTriggerMessage","value":"View in a map","icon":{"__typename":"Icon","id":"chevron_right","description":"","size":null,"token":"icon__chevron_right","theme":null},"clientSideAnalytics":{"__typename":"ClientSideAnalytics","linkName":"ClickAddressCTALinkViewMap","referrerId":"HOT.HIS.ClickAddressCTALinkViewMap"}},"toolbar":null},"staticImage":{"__typename":"Image","description":"Map","url":"https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=600x120&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C52.13749,5.3582&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=A1-bw6llCEqLIEGRAzCEKppj4Mc=","aspectRatio":null}},"nearbyPOIs":null,"lodgingChatbot":null},"propertyGallery":{"__typename":"PropertyImageGallery","imagesGrouped":null,"images":[{"__typename":"PropertyImage","accessibilityText":"Exterior, image","actionLabel":"Go to full screen","imageId":"60540618","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/a458ab6d.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Exterior"}},{"__typename":"PropertyImage","accessibilityText":"Terrace/patio, image","actionLabel":"Go to full screen","imageId":"683309368","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/ad854fb8.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Terrace/patio"}},{"__typename":"PropertyImage","accessibilityText":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103895488","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/f6fae693.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Breakfast, lunch, dinner served; Regional cuisine, garden views , image","actionLabel":"Go to full screen","imageId":"664182675","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/41a86eaa.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Breakfast, lunch, dinner served; Regional cuisine, garden views "}},{"__typename":"PropertyImage","accessibilityText":"Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103881444","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/d68243aa.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Reception, image","actionLabel":"Go to full screen","imageId":"103896812","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/2b1e8570.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Reception"}},{"__typename":"PropertyImage","accessibilityText":"Shower, eco-friendly toiletries, hair dryer, towels, image","actionLabel":"Go to full screen","imageId":"103894481","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/d0b7c1d7.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Shower, eco-friendly toiletries, hair dryer, towels"}},{"__typename":"PropertyImage","accessibilityText":"Bar (on property), image","actionLabel":"Go to full screen","imageId":"103896880","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/f1d18779.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Bar (on property)"}},{"__typename":"PropertyImage","accessibilityText":"Exterior, image","actionLabel":"Go to full screen","imageId":"664182681","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/117a0c0c.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Exterior"}},{"__typename":"PropertyImage","accessibilityText":"Lobby, image","actionLabel":"Go to full screen","imageId":"664182674","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/b0b49d34.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Lobby"}},{"__typename":"PropertyImage","accessibilityText":"Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103894907","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/9ad0630d.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Garden view, image","actionLabel":"Go to full screen","imageId":"103895095","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/d97216b0.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Garden view"}},{"__typename":"PropertyImage","accessibilityText":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103895453","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/5e834f3f.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Exterior, image","actionLabel":"Go to full screen","imageId":"664182673","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/8032d24d.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Exterior"}},{"__typename":"PropertyImage","accessibilityText":"BBQ/picnic Area, image","actionLabel":"Go to full screen","imageId":"103897411","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/22e4d304.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"BBQ/picnic Area"}},{"__typename":"PropertyImage","accessibilityText":"Property grounds, image","actionLabel":"Go to full screen","imageId":"664182677","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/b161396e.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Property grounds"}},{"__typename":"PropertyImage","accessibilityText":"Daily buffet breakfast (EUR 16.50 per person), image","actionLabel":"Go to full screen","imageId":"103897199","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/609a9403.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Daily buffet breakfast (EUR 16.50 per person)"}},{"__typename":"PropertyImage","accessibilityText":"Junior Suite | Bathroom | Shower, eco-friendly toiletries, hair dryer, towels, image","actionLabel":"Go to full screen","imageId":"103881142","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/6e9fead3.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Junior Suite | Bathroom | Shower, eco-friendly toiletries, hair dryer, towels"}},{"__typename":"PropertyImage","accessibilityText":"Bathroom shower, image","actionLabel":"Go to full screen","imageId":"104193490","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/36109bbf.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Bathroom shower"}},{"__typename":"PropertyImage","accessibilityText":"Meeting facility, image","actionLabel":"Go to full screen","imageId":"103897308","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/b1e470e7.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Meeting facility"}},{"__typename":"PropertyImage","accessibilityText":"Billiards, image","actionLabel":"Go to full screen","imageId":"103899672","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/fd7a434f.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Billiards"}},{"__typename":"PropertyImage","accessibilityText":"Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"510165676","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/5095bd5e.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Bicycling, image","actionLabel":"Go to full screen","imageId":"103899860","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/8152bde5.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Bicycling"}},{"__typename":"PropertyImage","accessibilityText":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"104193376","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/01abc5e9.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103895195","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/afadf884.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"104193358","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/9ab52d3a.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103905496","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/20775752.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103881025","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/7eb854c8.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi, image","actionLabel":"Go to full screen","imageId":"103881030","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/ac22c353.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi"}},{"__typename":"PropertyImage","accessibilityText":"Exterior, image","actionLabel":"Go to full screen","imageId":"664182684","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/9bf13409.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Exterior"}},{"__typename":"PropertyImage","accessibilityText":"Shower, eco-friendly toiletries, hair dryer, towels, image","actionLabel":"Go to full screen","imageId":"103895384","image":{"__typename":"Image","url":"https://images.trvl-media.com/lodging/1000000/30000/21200/21173/578b7166.jpg?impolicy=resizecrop&rw=500&ra=fit","description":"Shower, eco-friendly toiletries, hair dryer, towels"}}],"accessibilityLabel":"Photo gallery for Fletcher Hotel-Restaurant Amersfoort","thumbnailGalleryDialog":{"__typename":"LodgingGalleryDialog","trigger":{"__typename":"LodgingDialogTriggerMessage","value":"30+","icon":{"__typename":"Icon","id":"photo_library","description":"","size":null,"token":"icon__photo_library","theme":null},"clientSideAnalytics":{"__typename":"ClientSideAnalytics","linkName":"Close Thumbnail Gallery Dialog via Cross button","referrerId":"App.HOT.HIS.PhotoGalleryTrigger.Close"}},"toolbar":{"__typename":"LodgingDialogToolbar","title":"Fletcher Hotel-Restaurant Amersfoort","icon":{"__typename":"Icon","id":"arrow_back","description":"Cancel, go back to property details","size":null,"token":"icon__arrow_back","theme":null},"clientSideAnalytics":null}},"mediaGalleryDialog":{"__typename":"LodgingGalleryDialog","trigger":{"__typename":"LodgingDialogTriggerMessage","value":"30+","icon":null,"clientSideAnalytics":null},"toolbar":{"__typename":"LodgingDialogToolbar","title":"Fletcher Hotel-Restaurant Amersfoort","icon":{"__typename":"Icon","id":"close","description":"Cancel, go back to property details","size":null,"token":"icon__close","theme":null},"clientSideAnalytics":null}}},"reviewInfo":{"__typename":"PropertyReviews","summary":{"__typename":"PropertyReviewSummary","overallScoreWithDescriptionA11y":{"__typename":"LodgingEnrichedMessage","value":"8.0/10 Very good"},"propertyReviewCountDetails":{"__typename":"PropertyReviewCountDetails","shortDescription":"See all 220 reviews"},"highlightMessage":{"__typename":"MessageResult","subtitle":{"__typename":"MessagingResultTitle","text":"220 verified Hotels.com guest reviews"}},"seeAllAction":{"__typename":"PropertyFilteredReviewsDialog","trigger":{"__typename":"LodgingDialogTriggerMessage","clientSideAnalytics":{"__typename":"ClientSideAnalytics","linkName":"Open property reviews dialog","referrerId":"PropertyReviews.Open"}}}}},"propertyContentSectionGroups":{"__typename":"PropertyContentSectionGroups","cleanliness":{"__typename":"PropertyContentSectionGroup","sectionName":"cleaningAndSafetyPractices","sections":[{"__typename":"PropertyContentSection","sectionName":"cleaningAndSafetyPractices","header":{"__typename":"LodgingHeader","icon":null,"text":"Cleaning and safety practices","subText":null},"bodySubSections":[{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Enhanced cleanliness measures","subText":null,"icon":{"__typename":"Icon","id":"cleanliness","description":"","size":null,"token":"icon__cleanliness","theme":null},"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Disinfectant is used to clean the property","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"High-touch surfaces are cleaned and disinfected","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Sheets and towels are washed at 60°C or hotter","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Check-in","subText":null,"icon":{"__typename":"Icon","id":"social_distance","description":"","size":null,"token":"icon__social_distance","theme":null},"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Contactless social distancing and check-out","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Protective shields in place at main contact areas","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Social distancing measures in place","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Safety measures","subText":null,"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"icon__done","theme":null},"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Hand sanitiser provided","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Individually wrapped food options available for lunch and through room service","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":null,"subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"This information is provided by our partners.","accessibilityLabel":null,"icon":null},"secondary":null}}]}],"expando":null,"maxColumns":1}],"action":null}]},"aboutThisProperty":{"__typename":"PropertyContentSectionGroup","sectionName":null,"sections":[{"__typename":"PropertyContentSection","sectionName":null,"header":{"__typename":"LodgingHeader","icon":null,"text":"About this property","subText":null},"bodySubSections":[{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Fletcher Hotel-Restaurant Amersfoort","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"When visiting Amersfoort, Fletcher Hotel-Restaurant Amersfoort is a great choice to consider. For a bite to eat, guests can visit Restaurant Amersfoort, which serves Regional cuisine and is open for breakfast, lunch and dinner. This upmarket hotel also features a bar/lounge, a terrace and a garden. Fellow travellers say good things about the convenient parking and bar.   ","markupType":"HTML"}}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Languages ","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Dutch, English, German ","accessibilityLabel":null,"icon":null},"secondary":null}}]}],"expando":null,"maxColumns":1}],"action":null},{"__typename":"PropertyContentSection","sectionName":"cleaningAndSafetyPractices","header":{"__typename":"LodgingHeader","icon":null,"text":"Cleaning and safety practices","subText":null},"bodySubSections":[{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Enhanced cleanliness measures","subText":null,"icon":{"__typename":"Icon","id":"cleanliness","description":"","size":null,"token":"icon__cleanliness","theme":null},"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Disinfectant is used to clean the property","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"High-touch surfaces are cleaned and disinfected","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Sheets and towels are washed at 60°C or hotter","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Check-in","subText":null,"icon":{"__typename":"Icon","id":"social_distance","description":"","size":null,"token":"icon__social_distance","theme":null},"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Contactless social distancing and check-out","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Protective shields in place at main contact areas","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Social distancing measures in place","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Safety measures","subText":null,"icon":{"__typename":"Icon","id":"done","description":"","size":null,"token":"icon__done","theme":null},"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Hand sanitiser provided","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Individually wrapped food options available for lunch and through room service","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":null,"subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"This information is provided by our partners.","accessibilityLabel":null,"icon":null},"secondary":null}}]}],"expando":null,"maxColumns":1}],"action":null}]},"policies":{"__typename":"PropertyContentSectionGroup","sectionName":"Policies","sections":[{"__typename":"PropertyContentSection","sectionName":null,"header":{"__typename":"LodgingHeader","icon":null,"text":"Fees & policies","subText":null},"bodySubSections":[{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Mandatory fees","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"You'll be asked to pay the following charges by the property at check-in or check-out: <br/>","markupType":"HTML"}},{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"<ul><li><strong>A tax</strong> is imposed by the city: EUR 2.45 per person, per night</li> </ul>","markupType":"HTML"}},{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"<ul><li><strong>Resort fee:</strong> EUR 0.55 per person, per night</li> </ul>","markupType":"HTML"}}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Optional extras","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"<ul><li><strong>Buffet breakfast</strong> is offered for an extra charge of approximately EUR 16.50 for adults and EUR 16.50 for children</li>  </ul>","markupType":"HTML"}}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Children & extra beds","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"<ul><li>Cots/infant beds are available for EUR 10.0 per night</li> <li>Rollaway beds are available for EUR 25 per night</li> </ul>","markupType":"HTML"}}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Pets","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"<ul><li>Service animals exempt from fees</li> <li>Pets are allowed for an extra charge of EUR 15.00 per pet, per night</li> </ul>","markupType":"HTML"}}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Hygiene & cleanliness","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemMarkup","content":{"__typename":"MarkupText","text":"<p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property; commonly touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60°C/140°F.</p><p>Social distancing measures are in place; a shield is in place between staff and guests in main contact areas; guests are provided with hand sanitiser.</p><p>Contactless check-in and contactless check-out are available.</p><p>Individually wrapped food options are available for lunch and through room service.</p>","markupType":"HTML"}}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Policies","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemTexts","contents":[{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"This property uses solar energy, plus eco-friendly cleaning products.  ","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Special cancellation policies or charges may apply for group reservations (more than 8 rooms for the same property/stay dates).","accessibilityLabel":null,"icon":null},"secondary":null},{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"This property accepts credit cards and debit cards. Cash is not accepted. ","accessibilityLabel":null,"icon":null},"secondary":null}]}]}],"expando":null,"maxColumns":1},{"__typename":"PropertyContentSubSection","elements":[{"__typename":"PropertyContent","header":{"__typename":"LodgingHeader","text":"Also known as","subText":null,"icon":null,"headerImage":null},"items":[{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Fletcher Hotel-Restaurant Amersfoort Hotel","accessibilityLabel":null,"icon":null},"secondary":null}},{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Golden Tulip Hotel Amersfoort","accessibilityLabel":null,"icon":null},"secondary":null}},{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Fletcher Restaurant Amersfoort","accessibilityLabel":null,"icon":null},"secondary":null}},{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Princess Amersfoort","accessibilityLabel":null,"icon":null},"secondary":null}},{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Fletcher Hotel-Restaurant Amersfoort Hotel","accessibilityLabel":null,"icon":null},"secondary":null}},{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Fletcher Hotel-Restaurant Amersfoort Amersfoort","accessibilityLabel":null,"icon":null},"secondary":null}},{"__typename":"PropertyContentItemText","content":{"__typename":"PropertyContentText","primary":{"__typename":"LodgingEnrichedMessage","value":"Fletcher Hotel-Restaurant Amersfoort Hotel Amersfoort","accessibilityLabel":null,"icon":null},"secondary":null}}]}],"expando":null,"maxColumns":1}],"action":null}]},"importantInfo":null},"saveTripItem":null}
+{
+  "__typename": "PropertyInfo",
+  "summary": {
+    "__typename": "PropertySummary",
+    "fees": null,
+    "id": "21173",
+    "name": "Fletcher Hotel-Restaurant Amersfoort",
+    "map": {
+      "__typename": "PropertyInfoMap",
+      "markers": [
+        {
+          "__typename": "PointOfInterest",
+          "mapMarker": {
+            "__typename": "MapMarker",
+            "icon": "AIRPORT",
+            "latLong": {
+              "__typename": "Coordinates",
+              "latitude": 52.310138,
+              "longitude": 4.763419
+            },
+            "type": "POI"
+          },
+          "poiContent": {
+            "__typename": "PoiContent",
+            "description": null,
+            "id": "5459265",
+            "image": {
+              "__typename": "Image",
+              "aspectRatio": null,
+              "description": "",
+              "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/495000/495678-amsterdam-ams-schiphol.jpg"
+            }
+          },
+          "subtitle": "48 min drive",
+          "title": "Amsterdam (AMS-Schiphol)"
+        },
+        {
+          "__typename": "PointOfInterest",
+          "mapMarker": {
+            "__typename": "MapMarker",
+            "icon": "AIRPORT",
+            "latLong": {
+              "__typename": "Coordinates",
+              "latitude": 52.133024,
+              "longitude": 5.276767
+            },
+            "type": "POI"
+          },
+          "poiContent": null,
+          "subtitle": "7 min drive",
+          "title": "Utrecht (UTC-Soesterberg Air Base)"
+        },
+        {
+          "__typename": "PointOfInterest",
+          "mapMarker": {
+            "__typename": "MapMarker",
+            "icon": "HOTEL",
+            "latLong": {
+              "__typename": "Coordinates",
+              "latitude": 52.13749,
+              "longitude": 5.3582
+            },
+            "type": "HOTEL"
+          },
+          "poiContent": {
+            "__typename": "PoiContent",
+            "description": null,
+            "id": "21173",
+            "image": null
+          },
+          "subtitle": null,
+          "title": "Fletcher Hotel-Restaurant Amersfoort"
+        }
+      ]
+    },
+    "policies": {
+      "__typename": "PropertyPolicies",
+      "checkinEnd": null,
+      "checkinInstructions": [
+        "Front desk staff will greet guests on arrival"
+      ],
+      "checkinMinAge": null,
+      "checkinStart": null,
+      "checkoutTime": null,
+      "childAndBed": null,
+      "needToKnow": {
+        "__typename": "PropertyInfoSubSection",
+        "body": [
+          "This property uses solar energy, plus eco-friendly cleaning products.  ",
+          "Special cancellation policies or charges may apply for group reservations (more than 8 rooms for the same property/stay dates).",
+          "This property accepts credit cards and debit cards. Cash is not accepted. "
+        ],
+        "descriptions": [],
+        "title": "You need to know"
+      },
+      "paymentOptions": [],
+      "pets": {
+        "__typename": "PropertyInfoSubSection",
+        "body": [
+          "Pets allowed*",
+          "Service animals welcome",
+          "Restrictions apply*"
+        ],
+        "descriptions": [],
+        "title": "Pets"
+      },
+      "shouldMention": null
+    },
+    "telesalesPhoneNumber": "",
+    "bannerMessage": null,
+    "latinAlphabetName": "",
+    "tagline": "4-star hotel in Zon en Schild with restaurant and bar/lounge  \n",
+    "starRatingIcon": {
+      "__typename": "Icon",
+      "token": "STAR"
+    },
+    "overview": {
+      "__typename": "PropertyOverview",
+      "vipMessaging": null,
+      "inventoryType": null,
+      "accessibilityLabel": "Overview of Fletcher Hotel-Restaurant Amersfoort",
+      "label": null,
+      "propertyRating": {
+        "__typename": "EGDSIconRating",
+        "rating": 4,
+        "accessibility": "4.0 star property",
+        "icon": {
+          "__typename": "Icon",
+          "id": "star",
+          "description": "star rating",
+          "size": null,
+          "token": "icon__star",
+          "theme": null
+        }
+      }
+    },
+    "featuredMessages": null,
+    "spaceOverview": null,
+    "amenities": {
+      "__typename": "PropertyAmenities",
+      "amenities": [
+        {
+          "__typename": "PropertyInfoSection",
+          "title": "At a glance",
+          "sections": [],
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "At a glance",
+            "subText": null
+          },
+          "contents": [
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Hotel size ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "94 rooms ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Arranged over 2 floors ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Arriving/Leaving",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Check-in time from 3:00 PM until anytime ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Express check-out available ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Minimum check-in age – 18 ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Check-out time is 11 AM ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Restrictions related to your trip",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Check COVID-19 restrictions",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Special check-in instructions",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Front desk staff will greet guests on arrival",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Required at check-in",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Credit card, debit card or cash deposit required for incidental charges ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Government-issued photo ID may be required ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Minimum check-in age is 18 ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Pets",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Pets allowed* ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Service animals welcome ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Restrictions apply* ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Internet ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "wifi",
+                "description": "",
+                "size": null,
+                "token": "wifi",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free WiFi and wired Internet access in public areas ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free WiFi in rooms ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Parking ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "local_parking",
+                "description": "",
+                "size": null,
+                "token": "local_parking",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free on-site self-parking ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Electric vehicle charging point on site ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Other information ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Smoke-free property ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PropertyInfoSection",
+          "title": "Property amenities",
+          "sections": [],
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Property amenities",
+            "subText": null
+          },
+          "contents": [
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Food and drink ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "local_dining",
+                "description": "",
+                "size": null,
+                "token": "local_dining",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Buffet breakfast (surcharge) 7:00 AM–10:00 AM on weekdays and 8:00 AM–10:30 AM on weekends ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Restaurant ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Bar/lounge ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Coffee shop ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Coffee/tea in a common area ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Room service (limited hours) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Travelling with children ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "family_friendly",
+                "description": "",
+                "size": null,
+                "token": "family_friendly",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Playground ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "What to do ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "lob_activities",
+                "description": "",
+                "size": null,
+                "token": "lob_activities",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Mountain biking ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Pool table ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Golfing nearby ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Hiking/biking trails nearby ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Working away ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "business_center",
+                "description": "",
+                "size": null,
+                "token": "business_center",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Business centre ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Meeting rooms ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Conference space ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Services ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "room_service",
+                "description": "",
+                "size": null,
+                "token": "room_service",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "24-hour front desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Concierge services ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Dry cleaning/laundry services ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free newspapers in reception ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Luggage storage ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wedding services ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Multilingual staff ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Porter/bellhop ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Bike hire ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Facilities ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Safe-deposit box at front desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Garden ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Picnic area ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Terrace ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Bike parking ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Vegan dining options ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Vegetarian dining options ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Humane treatment of captive wild animals ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "At least 80% of lighting from LEDs ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Comprehensive food waste policy ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "No plastic coffee stirrers ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "No plastic drinking straws ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Reusable cups only ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Reusable tableware only ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Accessibility ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "accessible",
+                "description": "",
+                "size": null,
+                "token": "accessible",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Lift ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Accessible bathroom (selected rooms) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "In-room accessibility (selected rooms) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Roll-in shower (selected rooms) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible registration desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible restaurant ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Wheelchair-accessible lounge ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "PropertyInfoSection",
+          "title": "Room amenities",
+          "sections": [],
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Room amenities",
+            "subText": null
+          },
+          "contents": [
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Be entertained ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Flat-screen television ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Satellite TV channels ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Home comfort ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Coffee/tea maker ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Iron/ironing board (on request) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Sleep well ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Blackout curtains ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Turndown service ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Bed sheets provided ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Freshen up ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Shower only ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Eco-friendly toiletries ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Hairdryer (on request) ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Towels ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "Stay connected ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Desk ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Free WiFi ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Phone ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "__typename": "PropertyInfoContent",
+              "header": {
+                "__typename": "LodgingHeader",
+                "text": "More ",
+                "subText": null,
+                "mark": null
+              },
+              "icon": {
+                "__typename": "Icon",
+                "id": "done",
+                "description": "",
+                "size": null,
+                "token": "done",
+                "theme": null
+              },
+              "jumpLink": null,
+              "items": [
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Daily housekeeping ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Eco-friendly toiletries ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "LED light bulbs ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Water-efficient showers only ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                },
+                {
+                  "__typename": "PropertyInfoItem",
+                  "text": "Water-efficient toilets only ",
+                  "state": null,
+                  "moreInfo": null,
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topAmenities": {
+        "__typename": "PropertyInfoContent",
+        "header": {
+          "__typename": "LodgingHeader",
+          "text": "Property highlights",
+          "subText": null,
+          "mark": null
+        },
+        "icon": null,
+        "jumpLink": null,
+        "items": [
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Pet-friendly",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "pets",
+              "description": "",
+              "size": null,
+              "token": "pets",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Free parking",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_parking",
+              "description": "",
+              "size": null,
+              "token": "local_parking",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Free WiFi",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "wifi",
+              "description": "",
+              "size": null,
+              "token": "wifi",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Restaurant",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_dining",
+              "description": "",
+              "size": null,
+              "token": "local_dining",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Bar",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_bar",
+              "description": "",
+              "size": null,
+              "token": "local_bar",
+              "theme": null
+            }
+          },
+          {
+            "__typename": "PropertyInfoItem",
+            "text": "Laundry facilities",
+            "state": null,
+            "moreInfo": null,
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_laundry_service",
+              "description": "",
+              "size": null,
+              "token": "local_laundry_service",
+              "theme": null
+            }
+          }
+        ]
+      },
+      "propertyContentPreferences": null,
+      "amenitiesDialog": {
+        "__typename": "LodgingAmenitiesDialog",
+        "trigger": {
+          "__typename": "LodgingDialogTriggerMessage",
+          "value": "See all",
+          "icon": {
+            "__typename": "Icon",
+            "id": "chevron_right",
+            "description": "View all amenities",
+            "size": null,
+            "token": "icon__chevron_right",
+            "theme": null
+          },
+          "clientSideAnalytics": {
+            "__typename": "ClientSideAnalytics",
+            "linkName": "View all amenities",
+            "referrerId": "HOT.HIS.ViewAllAmenities"
+          }
+        },
+        "toolbar": {
+          "__typename": "LodgingDialogToolbar",
+          "title": "Property amenities"
+        }
+      },
+      "takeover": {
+        "__typename": "PropertyTakeoverAmenities",
+        "amenityClosures": null,
+        "highlight": [
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Popular amenities",
+              "subText": null,
+              "mark": null
+            },
+            "icon": null,
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Pet-friendly",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "pets",
+                  "description": "",
+                  "size": null,
+                  "token": "pets",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Free parking",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "local_parking",
+                  "description": "",
+                  "size": null,
+                  "token": "local_parking",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Free WiFi",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "wifi",
+                  "description": "",
+                  "size": null,
+                  "token": "wifi",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Restaurant",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "local_dining",
+                  "description": "",
+                  "size": null,
+                  "token": "local_dining",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Bar",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "local_bar",
+                  "description": "",
+                  "size": null,
+                  "token": "local_bar",
+                  "theme": null
+                }
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Laundry facilities",
+                "state": null,
+                "moreInfo": null,
+                "icon": {
+                  "__typename": "Icon",
+                  "id": "local_laundry_service",
+                  "description": "",
+                  "size": null,
+                  "token": "local_laundry_service",
+                  "theme": null
+                }
+              }
+            ]
+          }
+        ],
+        "property": [
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Food and drink ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "local_dining",
+              "description": "",
+              "size": null,
+              "token": "local_dining",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Buffet breakfast (surcharge) 7:00 AM–10:00 AM on weekdays and 8:00 AM–10:30 AM on weekends ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Restaurant ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Bar/lounge ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Coffee shop ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Coffee/tea in a common area ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Room service (limited hours) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Travelling with children ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "family_friendly",
+              "description": "",
+              "size": null,
+              "token": "family_friendly",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Playground ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "What to do ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "lob_activities",
+              "description": "",
+              "size": null,
+              "token": "lob_activities",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Mountain biking ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Pool table ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Golfing nearby ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Hiking/biking trails nearby ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Working away ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "business_center",
+              "description": "",
+              "size": null,
+              "token": "business_center",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Business centre ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Meeting rooms ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Conference space ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Services ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "room_service",
+              "description": "",
+              "size": null,
+              "token": "room_service",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "24-hour front desk ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Concierge services ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Dry cleaning/laundry services ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Free newspapers in reception ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Luggage storage ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wedding services ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Multilingual staff ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Porter/bellhop ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Bike hire ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Facilities ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "done",
+              "description": "",
+              "size": null,
+              "token": "done",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Safe-deposit box at front desk ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Garden ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Picnic area ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Terrace ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Bike parking ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Vegan dining options ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Vegetarian dining options ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Humane treatment of captive wild animals ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "At least 80% of lighting from LEDs ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Comprehensive food waste policy ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "No plastic coffee stirrers ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "No plastic drinking straws ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Reusable cups only ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Reusable tableware only ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          },
+          {
+            "__typename": "PropertyInfoContent",
+            "header": {
+              "__typename": "LodgingHeader",
+              "text": "Accessibility ",
+              "subText": null,
+              "mark": null
+            },
+            "icon": {
+              "__typename": "Icon",
+              "id": "accessible",
+              "description": "",
+              "size": null,
+              "token": "accessible",
+              "theme": null
+            },
+            "jumpLink": null,
+            "items": [
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Lift ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Accessible bathroom (selected rooms) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "In-room accessibility (selected rooms) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Roll-in shower (selected rooms) ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible registration desk ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible restaurant ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              },
+              {
+                "__typename": "PropertyInfoItem",
+                "text": "Wheelchair-accessible lounge ",
+                "state": null,
+                "moreInfo": null,
+                "icon": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "cleaningAndSafety": null,
+    "location": {
+      "__typename": "PropertyLocation",
+      "address": {
+        "__typename": "PropertyAddress",
+        "addressLine": "Stichtse Rotonde 11, Amersfoort, 3818 GV",
+        "city": "Amersfoort",
+        "province": "",
+        "countryCode": "NLD",
+        "firstAddressLine": "Stichtse Rotonde 11",
+        "secondAddressLine": ""
+      },
+      "coordinates": {
+        "__typename": "Coordinates",
+        "latitude": 52.13749,
+        "longitude": 5.3582
+      },
+      "multiCityRegion": {
+        "__typename": "Region",
+        "id": "null"
+      },
+      "whatsAround": {
+        "__typename": "PropertyWhatsAround",
+        "editorial": {
+          "__typename": "PropertyEditorial",
+          "title": "Amersfoort",
+          "content": [
+            "Fletcher Hotel-Restaurant Amersfoort is located in Zon en Schild, a neighbourhood in Amersfoort. Hoog Catharijne and Scheepjeshof are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Park Soesterberg Airbase and Griftpark. Ready for a night out? Consider Tivoli and TivoliVredenburg. Break out the clubs and hit the links on a nearby golf course, or seek out an adventure with hiking/biking trails. "
+          ]
+        }
+      },
+      "mapDialog": {
+        "__typename": "LodgingMapDialog",
+        "trigger": {
+          "__typename": "LodgingDialogTriggerMessage",
+          "value": "View in a map",
+          "icon": {
+            "__typename": "Icon",
+            "id": "chevron_right",
+            "description": "",
+            "size": null,
+            "token": "icon__chevron_right",
+            "theme": null
+          },
+          "clientSideAnalytics": {
+            "__typename": "ClientSideAnalytics",
+            "linkName": "ClickAddressCTALinkViewMap",
+            "referrerId": "HOT.HIS.ClickAddressCTALinkViewMap"
+          }
+        },
+        "toolbar": null
+      },
+      "staticImage": {
+        "__typename": "Image",
+        "description": "Map",
+        "url": "https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=600x120&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C52.13749,5.3582&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=A1-bw6llCEqLIEGRAzCEKppj4Mc=",
+        "aspectRatio": null
+      }
+    },
+    "nearbyPOIs": null,
+    "lodgingChatbot": null
+  },
+  "propertyGallery": {
+    "__typename": "PropertyImageGallery",
+    "imagesGrouped": null,
+    "images": [
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "60540618",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/a458ab6d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Terrace/patio, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "683309368",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/ad854fb8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Terrace/patio"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103895488",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/f6fae693.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Breakfast, lunch, dinner served; Regional cuisine, garden views , image",
+        "actionLabel": "Go to full screen",
+        "imageId": "664182675",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/41a86eaa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Breakfast, lunch, dinner served; Regional cuisine, garden views "
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103881444",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/d68243aa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Reception, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103896812",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/2b1e8570.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Reception"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, eco-friendly toiletries, hair dryer, towels, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103894481",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/d0b7c1d7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, eco-friendly toiletries, hair dryer, towels"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Bar (on property), image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103896880",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/f1d18779.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Bar (on property)"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "664182681",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/117a0c0c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Lobby, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "664182674",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/b0b49d34.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Lobby"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103894907",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/9ad0630d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Garden view, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103895095",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/d97216b0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Garden view"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103895453",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/5e834f3f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "664182673",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/8032d24d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "BBQ/picnic Area, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103897411",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/22e4d304.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "BBQ/picnic Area"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Property grounds, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "664182677",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/b161396e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Property grounds"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Daily buffet breakfast (EUR 16.50 per person), image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103897199",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/609a9403.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Daily buffet breakfast (EUR 16.50 per person)"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite | Bathroom | Shower, eco-friendly toiletries, hair dryer, towels, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103881142",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/6e9fead3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite | Bathroom | Shower, eco-friendly toiletries, hair dryer, towels"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Bathroom shower, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "104193490",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/36109bbf.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Bathroom shower"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Meeting facility, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103897308",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/b1e470e7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Meeting facility"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Billiards, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103899672",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/fd7a434f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Billiards"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "510165676",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/5095bd5e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Bicycling, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103899860",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/8152bde5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Bicycling"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "104193376",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/01abc5e9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103895195",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/afadf884.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Superior Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "104193358",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/9ab52d3a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Luxury Double Room | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103905496",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/20775752.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103881025",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/7eb854c8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103881030",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/ac22c353.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Junior Suite | Desk, blackout curtains, iron/ironing board, free WiFi"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Exterior, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "664182684",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/9bf13409.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Exterior"
+        }
+      },
+      {
+        "__typename": "PropertyImage",
+        "accessibilityText": "Shower, eco-friendly toiletries, hair dryer, towels, image",
+        "actionLabel": "Go to full screen",
+        "imageId": "103895384",
+        "image": {
+          "__typename": "Image",
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/21200/21173/578b7166.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          "description": "Shower, eco-friendly toiletries, hair dryer, towels"
+        }
+      }
+    ],
+    "accessibilityLabel": "Photo gallery for Fletcher Hotel-Restaurant Amersfoort",
+    "thumbnailGalleryDialog": {
+      "__typename": "LodgingGalleryDialog",
+      "trigger": {
+        "__typename": "LodgingDialogTriggerMessage",
+        "value": "30+",
+        "icon": {
+          "__typename": "Icon",
+          "id": "photo_library",
+          "description": "",
+          "size": null,
+          "token": "icon__photo_library",
+          "theme": null
+        },
+        "clientSideAnalytics": {
+          "__typename": "ClientSideAnalytics",
+          "linkName": "Close Thumbnail Gallery Dialog via Cross button",
+          "referrerId": "App.HOT.HIS.PhotoGalleryTrigger.Close"
+        }
+      },
+      "toolbar": {
+        "__typename": "LodgingDialogToolbar",
+        "title": "Fletcher Hotel-Restaurant Amersfoort",
+        "icon": {
+          "__typename": "Icon",
+          "id": "arrow_back",
+          "description": "Cancel, go back to property details",
+          "size": null,
+          "token": "icon__arrow_back",
+          "theme": null
+        },
+        "clientSideAnalytics": null
+      }
+    },
+    "mediaGalleryDialog": {
+      "__typename": "LodgingGalleryDialog",
+      "trigger": {
+        "__typename": "LodgingDialogTriggerMessage",
+        "value": "30+",
+        "icon": null,
+        "clientSideAnalytics": null
+      },
+      "toolbar": {
+        "__typename": "LodgingDialogToolbar",
+        "title": "Fletcher Hotel-Restaurant Amersfoort",
+        "icon": {
+          "__typename": "Icon",
+          "id": "close",
+          "description": "Cancel, go back to property details",
+          "size": null,
+          "token": "icon__close",
+          "theme": null
+        },
+        "clientSideAnalytics": null
+      }
+    }
+  },
+  "reviewInfo": {
+    "__typename": "PropertyReviews",
+    "summary": {
+      "__typename": "PropertyReviewSummary",
+      "overallScoreWithDescriptionA11y": {
+        "__typename": "LodgingEnrichedMessage",
+        "value": "8.0/10 Very good"
+      },
+      "propertyReviewCountDetails": {
+        "__typename": "PropertyReviewCountDetails",
+        "shortDescription": "See all 220 reviews"
+      },
+      "highlightMessage": {
+        "__typename": "MessageResult",
+        "subtitle": {
+          "__typename": "MessagingResultTitle",
+          "text": "220 verified Hotels.com guest reviews"
+        }
+      },
+      "seeAllAction": {
+        "__typename": "PropertyFilteredReviewsDialog",
+        "trigger": {
+          "__typename": "LodgingDialogTriggerMessage",
+          "clientSideAnalytics": {
+            "__typename": "ClientSideAnalytics",
+            "linkName": "Open property reviews dialog",
+            "referrerId": "PropertyReviews.Open"
+          }
+        }
+      }
+    }
+  },
+  "propertyContentSectionGroups": {
+    "__typename": "PropertyContentSectionGroups",
+    "cleanliness": {
+      "__typename": "PropertyContentSectionGroup",
+      "sectionName": "cleaningAndSafetyPractices",
+      "sections": [
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": "cleaningAndSafetyPractices",
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Cleaning and safety practices",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Enhanced cleanliness measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "cleanliness",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__cleanliness",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Disinfectant is used to clean the property",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "High-touch surfaces are cleaned and disinfected",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Sheets and towels are washed at 60°C or hotter",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Check-in",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "social_distance",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__social_distance",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Contactless social distancing and check-out",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Protective shields in place at main contact areas",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Social distancing measures in place",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Safety measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "done",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__done",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Hand sanitiser provided",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Individually wrapped food options available for lunch and through room service",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": null,
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "This information is provided by our partners.",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        }
+      ]
+    },
+    "aboutThisProperty": {
+      "__typename": "PropertyContentSectionGroup",
+      "sectionName": null,
+      "sections": [
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": null,
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "About this property",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Fletcher Hotel-Restaurant Amersfoort",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "When visiting Amersfoort, Fletcher Hotel-Restaurant Amersfoort is a great choice to consider. For a bite to eat, guests can visit Restaurant Amersfoort, which serves Regional cuisine and is open for breakfast, lunch and dinner. This upmarket hotel also features a bar/lounge, a terrace and a garden. Fellow travellers say good things about the convenient parking and bar.   ",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Languages ",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Dutch, English, German ",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        },
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": "cleaningAndSafetyPractices",
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Cleaning and safety practices",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Enhanced cleanliness measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "cleanliness",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__cleanliness",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Disinfectant is used to clean the property",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "High-touch surfaces are cleaned and disinfected",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Sheets and towels are washed at 60°C or hotter",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Check-in",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "social_distance",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__social_distance",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Contactless social distancing and check-out",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Protective shields in place at main contact areas",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Social distancing measures in place",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Safety measures",
+                    "subText": null,
+                    "icon": {
+                      "__typename": "Icon",
+                      "id": "done",
+                      "description": "",
+                      "size": null,
+                      "token": "icon__done",
+                      "theme": null
+                    },
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Hand sanitiser provided",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Individually wrapped food options available for lunch and through room service",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": null,
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "This information is provided by our partners.",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        }
+      ]
+    },
+    "policies": {
+      "__typename": "PropertyContentSectionGroup",
+      "sectionName": "Policies",
+      "sections": [
+        {
+          "__typename": "PropertyContentSection",
+          "sectionName": null,
+          "header": {
+            "__typename": "LodgingHeader",
+            "icon": null,
+            "text": "Fees & policies",
+            "subText": null
+          },
+          "bodySubSections": [
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Mandatory fees",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "You'll be asked to pay the following charges by the property at check-in or check-out: <br/>",
+                        "markupType": "HTML"
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li><strong>A tax</strong> is imposed by the city: EUR 2.45 per person, per night</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li><strong>Resort fee:</strong> EUR 0.55 per person, per night</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Optional extras",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li><strong>Buffet breakfast</strong> is offered for an extra charge of approximately EUR 16.50 for adults and EUR 16.50 for children</li>  </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Children & extra beds",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li>Cots/infant beds are available for EUR 10.0 per night</li> <li>Rollaway beds are available for EUR 25 per night</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Pets",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<ul><li>Service animals exempt from fees</li> <li>Pets are allowed for an extra charge of EUR 15.00 per pet, per night</li> </ul>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Hygiene & cleanliness",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemMarkup",
+                      "content": {
+                        "__typename": "MarkupText",
+                        "text": "<p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property; commonly touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60°C/140°F.</p><p>Social distancing measures are in place; a shield is in place between staff and guests in main contact areas; guests are provided with hand sanitiser.</p><p>Contactless check-in and contactless check-out are available.</p><p>Individually wrapped food options are available for lunch and through room service.</p>",
+                        "markupType": "HTML"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Policies",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemTexts",
+                      "contents": [
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "This property uses solar energy, plus eco-friendly cleaning products.  ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "Special cancellation policies or charges may apply for group reservations (more than 8 rooms for the same property/stay dates).",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        },
+                        {
+                          "__typename": "PropertyContentText",
+                          "primary": {
+                            "__typename": "LodgingEnrichedMessage",
+                            "value": "This property accepts credit cards and debit cards. Cash is not accepted. ",
+                            "accessibilityLabel": null,
+                            "icon": null
+                          },
+                          "secondary": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            },
+            {
+              "__typename": "PropertyContentSubSection",
+              "elements": [
+                {
+                  "__typename": "PropertyContent",
+                  "header": {
+                    "__typename": "LodgingHeader",
+                    "text": "Also known as",
+                    "subText": null,
+                    "icon": null,
+                    "headerImage": null
+                  },
+                  "items": [
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Fletcher Hotel-Restaurant Amersfoort Hotel",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Golden Tulip Hotel Amersfoort",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Fletcher Restaurant Amersfoort",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Princess Amersfoort",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Fletcher Hotel-Restaurant Amersfoort Hotel",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Fletcher Hotel-Restaurant Amersfoort Amersfoort",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    },
+                    {
+                      "__typename": "PropertyContentItemText",
+                      "content": {
+                        "__typename": "PropertyContentText",
+                        "primary": {
+                          "__typename": "LodgingEnrichedMessage",
+                          "value": "Fletcher Hotel-Restaurant Amersfoort Hotel Amersfoort",
+                          "accessibilityLabel": null,
+                          "icon": null
+                        },
+                        "secondary": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "expando": null,
+              "maxColumns": 1
+            }
+          ],
+          "action": null
+        }
+      ]
+    },
+    "importantInfo": null
+  },
+  "saveTripItem": null
+}
