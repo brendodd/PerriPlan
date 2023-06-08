@@ -1,7 +1,9 @@
-<h1>Your Booking</h1>
-<%= simple_form_for [@hotel, @booking] do |f| %>
-  <%= f.input :start_time, as: :date %>
-  <%= f.input :end_time, as: :date %>
-  <%= f.input :note %>
-  <%= f.submit "Submit Booking", class: "btn btn-primary" %>
-<% end %>
+<div class="container my-3">
+  <h1>Reserve Your Booking</h1>
+  <%= simple_form_for [@hotel, @booking] do |f| %>
+    <%= f.input :start_time, as: :date %>
+    <%= f.input :end_time, as: :date %>
+    <%= f.input :note %>
+    <%= f.submit "Submit Booking", class: "btn btn-primary" %>
+  <% end %>
+</div>
