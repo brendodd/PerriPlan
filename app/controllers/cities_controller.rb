@@ -3,7 +3,7 @@ class CitiesController < ApplicationController
   def show
     @city = City.find(params[:id])
     @hotels = Hotel.all
-    @markers = @hotels.geocoded.map do |hotel|
+    @markers = @hotels.map do |hotel|
       {
         lat: hotel.latitude,
         lng: hotel.longitude,
