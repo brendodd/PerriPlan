@@ -2,10 +2,10 @@ require "json"
 require "open-uri"
 
 puts "Clearing database... 🧹"
-# City.destroy_all
- Hotel.destroy_all
-# Restaurant.destroy_all
-# Attraction.destroy_all
+City.destroy_all
+Hotel.destroy_all
+Restaurant.destroy_all
+Attraction.destroy_all
 
 filepath = File.join(__dir__, "hotels/ams_hotels.json")
 serialized_hotel = File.read(filepath)
@@ -15,7 +15,6 @@ puts "Creating hotels... 🏨"
 
 info['properties'].each do |property|
   id = property["id"]
-  p id
 
   hotel_file_path = File.join(__dir__, "amsterdam_hotels/#{id}")
   hotel_info_serialized = File.read(hotel_file_path)
@@ -27,7 +26,7 @@ info['properties'].each do |property|
   image_url = image_urls.map do |image_url|
     image_url["image"]["url"]
   end
-  p image_url
+
   longitude = hotel_info["summary"]["location"]["coordinates"]["longitude"]
   latitude = hotel_info["summary"]["location"]["coordinates"]["latitude"]
 
