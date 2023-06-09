@@ -1,3 +1,56 @@
 .smooth-scroll {
   scroll-behavior: smooth;
 }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px 8px;
+}
+
+.main-pic {
+  flex-grow: 1;
+  margin-right: 8px;
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-pic {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thi-pic {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fou-pic {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fif-pic {
+  grid-area: 2 / 2 / 3 / 3;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
