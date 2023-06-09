@@ -12,8 +12,9 @@
         <h4>Price Rating: <strong><%= @hotel.price_rating %></strong></h4>
 
       </div>
-
-      <%= image_tag "#{@hotel.image_url}", alt: "Hotel Image" %>
+      <% @hotel.image_url.each do |image|%>
+      <%= image_tag image, alt: "Hotel Image" %>
+      <% end %>
     </div>
 
       <%= link_to "Book", root_path, class:"btn btn-primary bookBtn"  %>
