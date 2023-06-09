@@ -24,7 +24,7 @@
                   <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-hotel"></i> <%= hotel.name %></p>
                   <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= "hotel.location" %></p>
                   <div class="smol-card-component-body">
-                    <%= link_to "Book Now", "", class:"btn btn-info fw-bold" %>
+                    <%= link_to "Book Now", hotel_path(hotel), class:"btn btn-info fw-bold" %>
                   </div>
                 </div>
               </div>

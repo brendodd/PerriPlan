@@ -30,7 +30,7 @@ info['properties'].each do |property|
   longitude = hotel_info["summary"]["location"]["coordinates"]["longitude"]
   latitude = hotel_info["summary"]["location"]["coordinates"]["latitude"]
 
-    Hotel.create({ name: property['name'], location: location, price_rating: price_rating, image_url: image_url, longitude: longitude, latitude: latitude })
+  Hotel.create({ name: property['name'], location: location, price_rating: price_rating, image_url: image_url, longitude: longitude, latitude: latitude })
 end
 
 puts "Successfully created #{Hotel.count} hotels"
