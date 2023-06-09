@@ -22,8 +22,11 @@ info['properties'].each do |property|
   hotel_info = JSON.parse(hotel_info_serialized)
   location = hotel_info["summary"]["location"]["address"]["addressLine"]
   price_rating = hotel_info["summary"]["overview"]["propertyRating"]["rating"]
-  image_url = hotel_info["propertyGallery"]["images"].first
-  image_url = image_url["image"]["url"]
+  image_urls = hotel_info["propertyGallery"]["images"][0..4]
+  # image_url = image_url["image"]["url"]
+  image_url = image_urls.map do |image_url|
+    image_url["image"]["url"]
+  end
   p image_url
   longitude = hotel_info["summary"]["location"]["coordinates"]["longitude"]
   latitude = hotel_info["summary"]["location"]["coordinates"]["latitude"]
