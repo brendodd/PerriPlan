@@ -21,8 +21,9 @@
               <div class="smol-card-component">
                 <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
                 <div class="smol-card-component-copy">
+                  <div class="card-background" style="background-image: url('<%= hotel.image_url[0] %>');"></div>
                   <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-hotel"></i> <%= hotel.name %></p>
-                  <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= "hotel.location" %></p>
+                  <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= hotel.location %></p>
                   <div class="smol-card-component-body">
                     <%= link_to "Book Now", hotel_path(hotel), class:"btn btn-info fw-bold" %>
                   </div>
@@ -37,15 +38,18 @@
           <h1>Food & Drink</h1>
         </div>
         <div class="row">
-          <% @hotels.each do |hotel| %>
+          <% @restaurants.each do |restaurant| %>
             <div class="col-md-6 mb-4">
               <div class="smol-card-component">
                 <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
                 <div class="smol-card-component-body">
-                  <%= link_to "Book Now", "", class:"btn btn-info fw-bold" %>
                   <div class="smol-card-component-copy">
-                    <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-utensils"></i> <%= hotel.name %></p>
-                    <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= "hotel.location" %></p>
+                    <div class="card-background" style="background-image: url('<%= cl_image_path restaurant.photo.key %>');"></div>
+                    <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-utensils"></i> <%= restaurant.name %></p>
+                    <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
+                    <div class="smol-card-component-body">
+                    <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -58,15 +62,17 @@
           <h1>Attractions</h1>
         </div>
         <div class="row">
-          <% @hotels.each do |hotel| %>
+          <% @attractions.each do |attraction| %>
             <div class="col-md-6 mb-4">
               <div class="smol-card-component">
                 <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
                 <div class="smol-card-component-body">
-                  <%= link_to "Book Now", "", class:"btn btn-info fw-bold" %>
                   <div class="smol-card-component-copy">
-                    <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-landmark-flag"></i> <%= hotel.name %></p>
-                    <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= "hotel.location" %></p>
+                    <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-landmark-flag"></i> <%= attraction.name %></p>
+                    <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= attraction.location %></p>
+                    <div class="smol-card-component-body">
+                    <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
+                  </div>
                   </div>
                 </div>
               </div>
