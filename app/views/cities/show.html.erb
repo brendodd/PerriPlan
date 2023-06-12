@@ -48,8 +48,8 @@
                     <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-utensils"></i> <%= restaurant.name %></p>
                     <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
                     <div class="smol-card-component-body">
-                    <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
-                  </div>
+                      <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -68,11 +68,12 @@
                 <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
                 <div class="smol-card-component-body">
                   <div class="smol-card-component-copy">
+                    <div class="card-background" style="background-image: url('<%= cl_image_path attraction.photo.key %>');"></div>
                     <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-landmark-flag"></i> <%= attraction.name %></p>
                     <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= attraction.location %></p>
                     <div class="smol-card-component-body">
-                    <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
-                  </div>
+                      <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
+                    </div>
                   </div>
                 </div>
               </div>
