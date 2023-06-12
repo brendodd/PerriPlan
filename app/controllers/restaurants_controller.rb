@@ -1,4 +1,4 @@
-class RestaurantsController < ApplicationController
+endclass RestaurantsController < ApplicationController
   def index
     @restaurants = Restaurant.all
     @markers = @restaurants.geocoded.map do |restaurant|
