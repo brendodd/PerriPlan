@@ -11,6 +11,7 @@ class CitiesController < ApplicationController
     @listings << @restaurants
 
     @city = City.find(params[:id])
+
     @markers = @listings.flatten.map do |listing|
       {
         loc: listing.location,
@@ -19,5 +20,11 @@ class CitiesController < ApplicationController
         info_window_html: render_to_string(partial: "info_window", locals: { listing: listing })
       }
     end
+  end
+
+  private
+
+  def city_params
+    params.require(:city).permit(:name, :country)
   end
 end
