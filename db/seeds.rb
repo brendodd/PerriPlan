@@ -48,16 +48,16 @@ puts "Successfully created #{City.count} cities"
 
 puts "Creating attractions... 🎡"
 
-Attraction.create(name: 'Amsterdam Boat Adventures', location: 'Nieuwe Keizersgracht 1, 1018 DS Amsterdam', price_rating: '€€')
-Attraction.create(name: 'Westerpark', location: '', price_rating: '€')
-Attraction.create(name: 'Vondelpark', location: '', price_rating: '€')
-Attraction.create(name: 'Rembrandtpark', location: '', price_rating: '€')
-Attraction.create(name: 'Van Stapele', location: 'Heisteeg 4, 1012 WC Amsterdam', price_rating: '€')
-Attraction.create(name: 'Pllek', location: 'T.T. Neveritaweg 59, 1033 WB Amsterdam', price_rating: '€€')
-Attraction.create(name: 'Oosterpark', location: '', price_rating: '€')
-Attraction.create(name: 'Flevopark', location: '', price_rating: '€')
-Attraction.create(name: 'Beatrixpark', location: '', price_rating: '€')
-Attraction.create(name: 'Noorderlicht Cafe', location: 'NDSM-Plein 102, 1033 WB Amsterdam', price_rating: '€€')
+Attraction.create(name: 'Amsterdam Boat Adventures', latitude: '52.3659', longitude: '4.9153', price_rating: '€€')
+Attraction.create(name: 'Westerpark', latitude: '52.3875', longitude: '4.8778', price_rating: '€')
+Attraction.create(name: 'Vondelpark', latitude: '52.3580', longitude: '4.8686', price_rating: '€')
+Attraction.create(name: 'Rembrandtpark', latitude: '52.3657', longitude: '4.8403', price_rating: '€')
+Attraction.create(name: 'Van Stapele', latitude: '52.3756', longitude: '4.8946', price_rating: '€')
+Attraction.create(name: 'Pllek', latitude: '52.4063', longitude: '4.8929', price_rating: '€€')
+Attraction.create(name: 'Oosterpark', latitude: '52.3608', longitude: '4.9212', price_rating: '€')
+Attraction.create(name: 'Flevopark', latitude: '52.3580', longitude: '4.9423', price_rating: '€')
+Attraction.create(name: 'Beatrixpark', latitude: '52.3409', longitude: '4.8745', price_rating: '€')
+Attraction.create(name: 'Noorderlicht Cafe', latitude: '52.3997', longitude: '4.8959', price_rating: '€€')
 
 puts "Successfully created #{Attraction.count} attractions"
 
