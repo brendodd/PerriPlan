@@ -48,7 +48,7 @@
                     <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-utensils"></i> <%= restaurant.name %></p>
                     <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
                     <div class="smol-card-component-body">
-                      <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
+                      <%= link_to "View Now", restaurant_path(restaurant), class:"btn btn-info fw-bold" %>
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                     <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-landmark-flag"></i> <%= attraction.name %></p>
                     <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= attraction.location %></p>
                     <div class="smol-card-component-body">
-                      <%= link_to "View Now", '', class:"btn btn-info fw-bold" %>
+                      <%= link_to "View Now", attraction_path(attraction), class:"btn btn-info fw-bold" %>
                     </div>
                   </div>
                 </div>

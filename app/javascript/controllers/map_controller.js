@@ -5,7 +5,10 @@ export default class extends Controller {
   static values = {
     apiKey: String,
     markers: Array,
+   restaurants_geocoding
     markersrestaurants: Array
+    center: Array
+
   }
 
   connect() {
