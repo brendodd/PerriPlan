@@ -8,6 +8,7 @@ class CitiesController < ApplicationController
         lat: hotel.latitude,
         lng: hotel.longitude,
         info_window_html: render_to_string(partial: "info_window", locals: {hotel: hotel})
+       
       }
     end
   end

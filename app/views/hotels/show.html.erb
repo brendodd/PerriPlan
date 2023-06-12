@@ -28,6 +28,7 @@
     <div class="sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 100%; height: 400px;"
            data-controller="map"
            data-map-markers-value="<%= @markers.to_json %>"
+           data-map-markersrestaurants-value="<%= @markersrestaurants.to_json %>"
            data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
     </div>
   </div>
