@@ -30,7 +30,15 @@ info['properties'].each do |property|
   longitude = hotel_info["summary"]["location"]["coordinates"]["longitude"]
   latitude = hotel_info["summary"]["location"]["coordinates"]["latitude"]
 
-  Hotel.create({ name: property['name'], location: location, price_rating: price_rating, image_url: image_url, longitude: longitude, latitude: latitude })
+
+  hotel = Hotel.create({ name: property['name'], location: location, price_rating: price_rating, image_url: image_url, longitude: longitude, latitude: latitude })
+
+  #get the amenity info from json#make an array of strings of amenities
+  #make an array of strings of amenities
+
+  #@user.tag_list.add("awesome", "slick")
+  #hotel.save
+
 end
 
 puts "Successfully created #{Hotel.count} hotels"
