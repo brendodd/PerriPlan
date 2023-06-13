@@ -1,3 +1,37 @@
 <div class="container my-3">
-  <h1><%= "You're going to #{@booking.bookable.name}" %></h1>
-</div>
+  <div class="card mx-auto" style="width: 50rem;">
+    <%= image_tag(@booking.bookable.image_url[0], class: "card-img-top", height: '400')%>
+    <div class="card-header">
+      <h3><b>Confirmed!</b></h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"><%= "You're going to #{@booking.bookable.name}" %></h5>
+      <table class="mb-2">
+        <thead>
+          <tr class="card-title">
+            <th>
+              <h5><b>Check-In date:</b></h5>
+            </th>
+            <th>
+              <h5><b>Check-Out date:</b></h5>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="card-text">
+          <tr>
+            <td><%= "#{@booking.start_time.strftime("%A %B #{@booking.start_time.day.ordinalize} %Y at %-l%P")}" %></td>
+            <td><%= "#{@booking.end_time.strftime("%A %B #{@booking.end_time.day.ordinalize} %Y at %-l%P")}" %></td>
+          </tr>
+        </tbody>
+        <thead>
+        </table>
+        <h5 class="card-title"><b>Room details:</b></h5>
+        <p class="card-text"><%= "Standard room with canal view" %></p>
+        <h5 class="card-title"><b>Booking Name:</b></h5>
+        <p class="card-text"><%= "Name: #{@booking.user.first_name} #{@booking.user.last_name}"%></p>
+        <p class="card-text"><%= "Email: #{@booking.user.email}"%></p>
+        <p class="card-text"><%= "Contact Number: #{@booking.user.phone_number}"%></p>
+        <a href="#" class="btn btn-primary">See Reviews</a>
+      </div>
+    </div>
+  </div>
