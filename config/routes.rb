@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   resources :cities, only: [:show]
   resources :bookings, only: [:show]
+  resources :restaurants, only: [:show]
+  resources :attractions, only: [:show]
 end
