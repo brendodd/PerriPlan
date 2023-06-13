@@ -1,5 +1,7 @@
 <div class="container mt-3">
   <div class="row">
+    <h3><strong><%= @hotel.name %></strong></h3>
+    <h4><%= @hotel.location %>  ⭐  <%= @hotel.price_rating %></h4>
     <div class="d-flex m-0 p-0">
       <div class="main-pic" style="background-image: url('<%= @hotel.image_url[0] %>');"></div>
       <div class="photo-grid">
@@ -9,27 +11,38 @@
         <div class="fif-pic" style="background-image: url('<%= @hotel.image_url[4] %>');"></div>
       </div>
     </div>
-    <div class=" my-5 d-flex justify-content-between hotel-info ">
-      <div class="my-5 d-flex flex-column justify-content-between" >
-        <h3><strong><%= @hotel.name %></strong></h3>
-        <h4>Address: <strong><%= @hotel.location %></strong></h4>
-        <h4>Price Rating: <strong><%= @hotel.price_rating %></strong></h4>
-      </div>
-      <div class="container my-3">
-        <h1>Reserve Your Booking</h1>
-        <%= simple_form_for [@hotel, @booking] do |f| %>
-          <%= f.input :start_time, as: :date %>
-          <%= f.input :end_time, as: :date %>
-          <%= f.input :note %>
-          <%= f.submit "Submit Booking", class: "btn btn-primary" %>
-        <% end %>
-      </div>
-    </div>
-    <div class="sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 100%; height: 400px;"
+    <div class="row my-5 d-flex justify-content-between hotel-info ">
+      <div class="col-md-6 sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 550px; height: 400px;"
            data-controller="map"
            data-map-markers-value="<%= @markers.to_json %>"
            data-map-markersrestaurants-value="<%= @markersrestaurants.to_json %>"
            data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+      </div>
+      <div class="row col-md-6">
+        <div class="my-3">
+          <h1>Reserve Your Booking</h1>
+          <%= simple_form_for [@hotel, @booking] do |f| %>
+            <div class="row">
+              <div class="col">
+                <%= f.input :start_time, as: :string,
+                placeholder: "Check-In",
+                wrapper_html: { class: "mb-4" },
+                label_html: { class: "form-label text-secondary fw-bold" },
+                input_html: { data: { controller: "flatpickr" } } %>
+              </div>
+              <div class="col">
+                <%= f.input :end_time, as: :string,
+                placeholder: "Check-Out",
+                wrapper_html: { class: "mb-4" },
+                label_html: { class: "form-label text-secondary fw-bold" },
+                input_html: { data: { controller: "flatpickr" } } %>
+              </div>
+            </div>
+            <%= f.input :note %>
+            <%= f.submit "Reserve", class: "btn btn-primary" %>
+          <% end %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
