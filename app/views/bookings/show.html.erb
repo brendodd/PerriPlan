@@ -1,3 +1,30 @@
 <div class="container my-3">
-  <h1><%= "You're going to #{@booking.bookable.name}" %></h1>
-</div>
+  <div class="card mx-auto" style="width: 65rem;">
+    <div class="card-header">
+      <h3>Confirmed!</h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"><%= "You're going to #{@booking.bookable.name}" %></h5>
+      <table>
+        <thead>
+          <tr class="card-title">
+            <th>Check-In date:</th>
+            <th>Check-Out date:</th>
+          </tr>
+        </thead>
+        <tbody class="card-text">
+          <tr>
+            <td><%= "#{@booking.start_time.strftime("%A %B #{@booking.start_time.day.ordinalize} %Y at %-l%P")}" %></td>
+            <td><%= "#{@booking.end_time.strftime("%A %B #{@booking.end_time.day.ordinalize} %Y at %-l%P")}" %></td>
+          </tr>
+        </tbody>
+        <thead>
+        </table>
+        <h5 class="card-title">Room details:</h5>
+        <p class="card-text"><%= "Standard room with canal view" %></p>
+        <h5 class="card-title">Name:</h5>
+        <p class="card-text"><%= "#{@booking.user.first_name} #{@booking.user.last_name}"%></p>
+        <a href="#" class="btn btn-primary">See Reviews</a>
+      </div>
+    </div>
+  </div>
