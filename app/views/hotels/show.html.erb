@@ -16,34 +16,37 @@
         <h4>Price Rating: <strong><%= @hotel.price_rating %></strong></h4>
         <% @hotel.tag_list.each do |amenity| %>
           <% if amenity.downcase == "free wifi" || amenity.downcase == "internet access" %>
-            <i class="fa-solid fa-wifi"></i>
+            <h6><i class="fa-solid fa-wifi"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "pool" %>
-            <i class="fa-solid fa-person-swimming"></i>
+            <h6><i class="fa-solid fa-person-swimming"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "spa" %>
-            <i class="fa-sharp fa-solid fa-spa"></i>
+            <h6><i class="fa-sharp fa-solid fa-spa"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "pet-friendly" %>
-            <i class="fa-solid fa-paw"></i>
+            <h6><i class="fa-solid fa-paw"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "parking available" || amenity.downcase == "free parking" %>
-            <i class="fa-solid fa-square-parking"></i>
+            <h6><i class="fa-solid fa-square-parking"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "restaurant" %>
-            <i class="fa-solid fa-utensils"></i>
+            <h6><i class="fa-solid fa-utensils"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "airport transfer" %>
-            <i class="fa-solid fa-van-shuttle"></i>
+            <h6><i class="fa-solid fa-van-shuttle"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "air conditioning" %>
-            <i class="fa-solid fa-snowflake"></i>
+            <h6><i class="fa-solid fa-snowflake"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "bar" %>
-            <i class="fa-sharp fa-solid fa-martini-glass"></i>
+            <h6><i class="fa-sharp fa-solid fa-martini-glass"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "laundry facilities" %>
-            <i class="fa-duotone fa-washing-machine"></i>
+            <h6><i class="fa-solid fa-jug-detergent"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "connecting rooms available" %>
-            <i class="fa-solid fa-people-roof"></i>
+            <h6><i class="fa-solid fa-people-roof"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "gym" %>
-            <i class="fa-sharp fa-solid fa-dumbbell"></i>
+            <h6><i class="fa-sharp fa-solid fa-dumbbell"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% elsif amenity.downcase == "free breakfast" %>
-            <i class="fa-solid fa-mug-saucer"></i>
+            <h6><i class="fa-solid fa-mug-saucer"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
+          <% elsif amenity.downcase == "non-smoking" %>
+            <h6><i class="fa-solid fa-ban-smoking"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
+          <% elsif amenity.downcase == "24/7 front desk" %>
+            <h6><i class="fa-solid fa-bell-concierge"></i><span>&nbsp&nbsp&nbsp<%= amenity %></span></h6>
           <% end %>
-           <h4><%= amenity %></h4>
-        <% end %>
+         <% end %>
       </div>
       <div class="container my-3">
         <h1>Reserve Your Booking</h1>
