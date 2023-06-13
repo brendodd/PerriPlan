@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus";
 import flatpickr from "flatpickr";
-import { formatDate } from "flatpickr/dist/utils/dates";
+// import { formatDate } from "flatpickr/dist/utils/dates";
 
 export default class extends Controller {
   connect() {
