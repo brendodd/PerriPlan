@@ -1,15 +1,20 @@
 <div class="container my-3">
   <div class="card mx-auto" style="width: 50rem;">
+    <%= image_tag(@booking.bookable.image_url[0], class: "card-img-top", height: '400')%>
     <div class="card-header">
-      <h3>Confirmed!</h3>
+      <h3><b>Confirmed!</b></h3>
     </div>
     <div class="card-body">
       <h5 class="card-title"><%= "You're going to #{@booking.bookable.name}" %></h5>
       <table class="mb-2">
         <thead>
           <tr class="card-title">
-            <th>Check-In date:</th>
-            <th>Check-Out date:</th>
+            <th>
+              <h5><b>Check-In date:</b></h5>
+            </th>
+            <th>
+              <h5><b>Check-Out date:</b></h5>
+            </th>
           </tr>
         </thead>
         <tbody class="card-text">
