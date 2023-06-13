@@ -153,3 +153,30 @@ apostrof.photo.attach(io: file, filename: "nes.png", content_type: "image/png")
 apostrof.save
 
 puts "Successfully created #{Restaurant.count} restaurants"
+
+puts "creating bookings..."
+
+Booking.destroy_all
+
+5.times do |index|
+  Booking.create!(start_time: Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :afternoon).beginning_of_hour,
+                  end_time: Faker::Time.between_dates(from: Date.today + 6, to: Date.today + 11, period: :morning).beginning_of_hour,
+                  status: ["pending", "confirmed"].sample,
+                  note: "hello",
+                  bookable: Hotel.all.sample,
+                  user: User.all.sample)
+  end
+
+
+  5.times do |index|
+    start_time = Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :night).beginning_of_hour
+    rest_end_time = start_time + 2.hours
+    Booking.create!(start_time: start_time,
+                    end_time: rest_end_time,
+                    status: ["pending", "confirmed"].sample,
+                    note: "hello",
+                    bookable: Restaurant.all.sample,
+                    user: User.all.sample)
+    end
+
+puts "Successfully created #{Booking.count} bookings"
