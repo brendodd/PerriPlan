@@ -1,0 +1,32 @@
+<div class="container my-5">
+  <h2>Past Bookings</h2>
+  <% if @past_bookings.present? %>
+    <% @past_bookings.each do |booking| %>
+      <div class="row justify-content-end my-4">
+        <div class="col-4 d-flex justify-content-between">
+          <%= image_tag(booking.bookable.image_url[0], class: "card-img-top", height: '200')%>
+          <div class="d-flex flex-wrap mx-4">
+            <div class="d-flex">
+              <h3>name</h3>
+              <span><%= booking.bookable.name %></span></div>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-around align-items-top">
+          <div class="user-booking-index">
+            <h3>status</h3>
+            <span><%= booking.status %></span></div>
+          <div class="user-booking-index">
+            <h3>booking start</h3>
+            <span><%= booking.start_time.strftime("%d %b %Y") %></span></div>
+          <div class="user-booking-index">
+            <h3>booking end</h3>
+            <span><%= booking.end_time.strftime("%d %b %Y") %></span></div>
+        </div>
+        <div class="p-2 col-2">
+          <%= link_to "Leave a review!", "", class:"btn btn-info fw-bold" %></div>
+      </div>
+    <% end %>
+  <% else %>
+    <p> No previous bookings  </p>
+  <% end %>
+</div>

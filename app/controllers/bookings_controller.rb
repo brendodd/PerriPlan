@@ -20,6 +20,12 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
   end
 
+  def index
+    @current_bookings = current_user.bookings.where(start_time: ..Date.today, end_date: Date.today + 1..)
+    @past_bookings = current_user.bookings.where(end_time: ..Date.today - 1)
+    @future_bookings = current_user.bookings.where(start_time: Date.today + 1..)
+  end
+
   private
 
   def booking_params
