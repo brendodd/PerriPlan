@@ -1,11 +1,11 @@
 <div class="container my-3">
-  <div class="card mx-auto" style="width: 65rem;">
+  <div class="card mx-auto" style="width: 50rem;">
     <div class="card-header">
       <h3>Confirmed!</h3>
     </div>
     <div class="card-body">
       <h5 class="card-title"><%= "You're going to #{@booking.bookable.name}" %></h5>
-      <table>
+      <table class="mb-2">
         <thead>
           <tr class="card-title">
             <th>Check-In date:</th>
@@ -20,10 +20,12 @@
         </tbody>
         <thead>
         </table>
-        <h5 class="card-title">Room details:</h5>
+        <h5 class="card-title"><b>Room details:</b></h5>
         <p class="card-text"><%= "Standard room with canal view" %></p>
-        <h5 class="card-title">Name:</h5>
-        <p class="card-text"><%= "#{@booking.user.first_name} #{@booking.user.last_name}"%></p>
+        <h5 class="card-title"><b>Booking Name:</b></h5>
+        <p class="card-text"><%= "Name: #{@booking.user.first_name} #{@booking.user.last_name}"%></p>
+        <p class="card-text"><%= "Email: #{@booking.user.email}"%></p>
+        <p class="card-text"><%= "Contact Number: #{@booking.user.phone_number}"%></p>
         <a href="#" class="btn btn-primary">See Reviews</a>
       </div>
     </div>
