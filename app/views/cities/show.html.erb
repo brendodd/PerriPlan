@@ -68,7 +68,7 @@
                 <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
                 <div class="smol-card-component-body">
                   <div class="smol-card-component-copy">
-                    <div class="card-background" style="background-image: url('<%= cl_image_path attraction.photo.key %>');"></div>
+                    <div class="card-background" style="background-image: url('<%= attraction.photo.attatched? ? cl_image_path attraction.photo.key : image_path("park.jpg") %>');"></div>
                     <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-landmark-flag"></i> <%= attraction.name %></p>
                     <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= attraction.location %></p>
                     <div class="smol-card-component-body">
