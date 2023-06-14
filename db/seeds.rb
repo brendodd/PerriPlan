@@ -1,5 +1,6 @@
 require "json"
 require "open-uri"
+require "faker"
 
 puts "Clearing database... 🧹"
 City.destroy_all
@@ -191,3 +192,18 @@ Booking.destroy_all
     end
 
 puts "Successfully created #{Booking.count} bookings"
+
+puts "creating reviews..."
+
+Booking.all.each do |booking|
+  5.times do
+    Review.create!(
+      booking: booking,
+      user: User.all.sample,
+      rating: rand(3..5),
+      comment: Faker::Restaurant.review
+    )
+  end
+end
+
+puts "Successfully created #{Review.count} reviews"

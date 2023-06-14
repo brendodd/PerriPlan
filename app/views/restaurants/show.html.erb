@@ -23,4 +23,21 @@
            data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
     </div>
   </div>
+  <% @reviews.each do |review|  %>
+    <section class="rating__card">
+      <blockquote class="rating__card__quote">“<%=
+      review.comment
+      %>
+        ”</blockquote>
+      <div class="rating__card__stars">
+        <% review.rating.times do %>
+          <i class="fa-solid fa-paw" ></i>
+        <% end %>
+        <% (5 - review.rating).times do %>
+          <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
+        <% end %>
+      </div>
+      <p class="rating__card__bottomText"><%= review.user.first_name %></p>
+    </section>
+  <% end %>
 </div>
