@@ -13,9 +13,10 @@ Rails.application.routes.draw do
   end
   resources :cities, only: [:show]
 
+  resources :restaurants, only: [:show] do
+    resources :bookings, only: [:new, :create]
+  end
+  
   resources :bookings, only: [:show, :index]
-
-
-  resources :restaurants, only: [:show]
   resources :attractions, only: [:show]
 end

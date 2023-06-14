@@ -10,6 +10,7 @@ class RestaurantsController < ApplicationController
     end
   end
   def show
+    @booking = Booking.new
     @restaurant = Restaurant.find(params[:id])
     @attractions = Attraction.near([@restaurant.latitude, @restaurant.longitude], 2)
     @markers = @attractions.map do |attraction|
