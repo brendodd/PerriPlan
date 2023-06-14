@@ -1,8 +1,8 @@
 <section class="et-hero-tabs">
   <div class="et-hero-tabs-container">
-    <a class="et-hero-tab" href="#hotels">Hotels</a>
-    <a class="et-hero-tab" href="#fooddrink">Food & Drink</a>
-    <a class="et-hero-tab" href="#attractions">Attractions</a>
+    <a class="et-hero-tab" href="#hotels"><i class="pe-2 fa-solid fa-house"></i>Hotels</a>
+    <a class="et-hero-tab" href="#fooddrink"><i class="pe-2 fa-solid fa-bowl-food"></i>Food & Drink</a>
+    <a class="et-hero-tab" href="#attractions"><i class="pe-2 fa-solid fa-baseball"></i>Attractions</a>
     <span class="et-hero-tab-slider"></span>
   </div>
 </section>
@@ -22,8 +22,8 @@
                 <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
                 <div class="smol-card-component-copy">
                   <div class="card-background" style="background-image: url('<%= hotel.image_url[0] %>');"></div>
-                  <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-hotel"></i> <%= hotel.name %></p>
-                  <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= hotel.location %></p>
+                  <p class="smol-card-component-text mt-3 mb-0"><i class="pe-1 fa-solid fa-house"></i> <%= hotel.name %></p>
+                  <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= hotel.location %></p>
                   <div class="smol-card-component-body">
                     <%= link_to "Book Now", hotel_path(hotel), class:"btn btn-info fw-bold" %>
                   </div>
@@ -45,8 +45,8 @@
                 <div class="smol-card-component-body">
                   <div class="smol-card-component-copy">
                     <div class="card-background" style="background-image: url('<%= cl_image_path restaurant.photo.key %>');"></div>
-                    <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-utensils"></i> <%= restaurant.name %></p>
-                    <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
+                    <p class="smol-card-component-text mt-3 mb-0"><i class="pe-1 fa-solid fa-bowl-food"></i> <%= restaurant.name %></p>
+                    <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
                     <div class="smol-card-component-body">
                       <%= link_to "View Now", restaurant_path(restaurant), class:"btn btn-info fw-bold" %>
                     </div>
@@ -69,8 +69,8 @@
                 <div class="smol-card-component-body">
                   <div class="smol-card-component-copy">
                     <div class="card-background" style="background-image: url('<%= attraction.photo.attached? ? cl_image_path(attraction.photo.key) : image_path("park.jpg") %>');"></div>
-                    <p class="smol-card-component-text mt-3 mb-0"><i class="fa-solid fa-landmark-flag"></i> <%= attraction.name %></p>
-                    <p class="smol-card-component-text"><i class="fa-solid fa-location-dot"></i> <%= attraction.location %></p>
+                    <p class="smol-card-component-text mt-3 mb-0"><i class="pe-1 fa-solid fa-baseball"></i> <%= attraction.name %></p>
+                    <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= attraction.location %></p>
                     <div class="smol-card-component-body">
                       <%= link_to "View Now", attraction_path(attraction), class:"btn btn-info fw-bold" %>
                     </div>
