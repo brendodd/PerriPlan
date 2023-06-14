@@ -1,5 +1,6 @@
 require "json"
 require "open-uri"
+require "faker"
 
 puts "Clearing database... 🧹"
 City.destroy_all
@@ -172,12 +173,42 @@ Booking.destroy_all
 5.times do |index|
   Booking.create!(start_time: Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :afternoon).beginning_of_hour,
                   end_time: Faker::Time.between_dates(from: Date.today + 6, to: Date.today + 11, period: :morning).beginning_of_hour,
-                  status: ["pending", "confirmed"].sample,
+                  status: ["Pending", "Confirmed"].sample,
                   note: "hello",
                   bookable: Hotel.all.sample,
                   user: User.all.sample)
 end
 
+3.times do |index|
+start_time_past = Faker::Time.between_dates(from: Date.today - 1.year, to: Date.today - 6.months, period: :afternoon).beginning_of_hour
+Booking.create!(start_time: start_time_past,
+                end_time: start_time_past + 2.days,
+                status: "Completed",
+                note: "hello",
+                bookable: Hotel.all.sample,
+                user: User.find_by(email: "ricky@office.com"))
+end
+
+start_time_future = Faker::Time.between_dates(from: Date.today + 3.months, to: Date.today + 6.months, period: :afternoon).beginning_of_hour
+Booking.create!(start_time: start_time_future,
+                end_time: start_time_future + 2.days,
+                status: "Pending",
+                note: "hello",
+                bookable: Hotel.all.sample,
+                user: User.find_by(email: "ricky@office.com"))
+
+
+  5.times do |index|
+    start_time = Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :night).beginning_of_hour
+    rest_end_time = start_time + 2.hours
+    Booking.create!(start_time: start_time,
+                    end_time: rest_end_time,
+                    status: ["Pending", "Confirmed"].sample,
+                    note: "hello",
+                    bookable: Restaurant.all.sample,
+                    user: User.all.sample)
+  end
+  Booking.dedupe
 
 5.times do |index|
   start_time = Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :night).beginning_of_hour
@@ -190,4 +221,20 @@ end
                   user: User.all.sample)
 end
 
+
 puts "Successfully created #{Booking.count} bookings"
+
+puts "creating reviews..."
+
+Booking.all.each do |booking|
+  5.times do
+    Review.create!(
+      booking: booking,
+      user: User.all.sample,
+      rating: rand(3..5),
+      comment: Faker::Restaurant.review
+    )
+  end
+end
+
+puts "Successfully created #{Review.count} reviews"
