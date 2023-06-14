@@ -40,28 +40,21 @@
             <h6><i class="pe-2 fa-solid fa-ban-smoking"></i>No Smoking Allowed</h6>
           </div>
         </div>
-        <div class="border col-3 d-flex justify-content-between" style="height: 450px">
+        <div class="smol-card-component col-3 d-flex justify-content-between align-items-center" style="height: 450px">
           <div class="container my-5">
-            <h4><strong>Reserve Your Booking</strong></h4>
-            <%= simple_form_for [@restaurant, @booking] do |f| %>
+            <h4 class="new_booking"><strong>Reserve Your Booking</strong></h4>
+            <%= simple_form_for [@restaurant, @booking], class: "pl-4"  do |f| %>
               <div class="row">
                 <div class="col">
                   <%= f.input :start_time, as: :string,
-                placeholder: "Check-In",
-                wrapper_html: { class: "mb-4" },
-                label_html: { class: "form-label text-secondary fw-bold" },
-                input_html: { data: { controller: "flatpickr" } } %>
-                </div>
-                <div class="col">
-                  <%= f.input :end_time, as: :string,
-                placeholder: "Check-Out",
+                placeholder: "Select Date and Time",
                 wrapper_html: { class: "mb-4" },
                 label_html: { class: "form-label text-secondary fw-bold" },
                 input_html: { data: { controller: "flatpickr" } } %>
                 </div>
               </div>
               <%= f.input :note %>
-              <%= f.submit "Reserve", class: "btn btn-info fw-bold" %>
+              <%= f.submit "Book", class: "btn btn-info fw-bold" %>
             <% end %>
           </div>
         </div>
