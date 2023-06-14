@@ -24,6 +24,7 @@ class BookingsController < ApplicationController
     @current_bookings = current_user.bookings.where(start_time: ..Date.today, end_time: Date.today + 1..)
     @past_bookings = current_user.bookings.where(end_time: ..Date.today - 1)
     @future_bookings = current_user.bookings.where(start_time: Date.today + 1..)
+    @review = Review.new()
   end
 
   private
