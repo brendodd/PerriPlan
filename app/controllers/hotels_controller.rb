@@ -7,6 +7,7 @@ class HotelsController < ApplicationController
     @booking = Booking.new
     @review = Review.new
     # @review = Review.find_by(booking_id)
+    @city = City.find_by("name LIKE '%#{@hotel.location}%'")
 
     restaurants = Restaurant.near([@hotel.latitude, @hotel.longitude], 5)
 

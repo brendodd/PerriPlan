@@ -31,7 +31,7 @@
         <p class="card-text"><%= "Name: #{@booking.user.first_name} #{@booking.user.last_name}"%></p>
         <p class="card-text"><%= "Email: #{@booking.user.email}"%></p>
         <p class="card-text"><%= "Contact Number: #{@booking.user.phone_number}"%></p>
-        <a href="#" class="btn btn-primary">See my Bookings</a>
+        <%= link_to "See my Bookings", bookings_path, class:"btn btn-primary" %>
       </div>
     </div>
   </div>
