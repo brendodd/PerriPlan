@@ -1,6 +1,16 @@
 <div class="container mt-3">
   <div class="row">
-    <div class="d-flex">
+    <h3 class="mt-3"><strong><%= @restaurant.name %></strong></h3>
+    <h5 class="mb-3"><%= @restaurant.location %></h4>
+    <div class="mb-4 pb-3">
+      <% @restaurant.price_rating.times do %>
+        <i class="fa-solid fa-euro-sign"></i>
+      <% end %>
+      <% (4 - @restaurant.price_rating).times do %>
+        <i class="fa-solid fa-euro-sign" style="color: #d4d4d4;"></i>
+      <% end %>
+    </div>
+    <div class="d-flex m-0 p-0">
       <div class="main-pic" style="background-image: url('<%= cl_image_path @restaurant.photo.key %>');"></div>
       <div class="photo-grid">
         <div class="sec-pic" style="background-image: url('<%= cl_image_path @restaurant.photo.key %>');"></div>
@@ -9,18 +19,30 @@
         <div class="fif-pic" style="background-image: url('<%= cl_image_path @restaurant.photo.key %>');"></div>
       </div>
     </div>
-    <div class=" my-5 d-flex justify-content-between hotel-info ">
-      <div class="my-5 d-flex flex-column justify-content-between" >
-        <h3><strong><%= @restaurant.name %></strong></h3>
-        <h4>Address: <strong><%= @restaurant.location %></strong></h4>
-        <h4>Price Rating: <strong><%= @restaurant.price_rating %></strong></h4>
-      </div>
-    </div>
-    <div class="sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 100%; height: 400px;"
+    <div class="row">
+      <div class="my-5 d-flex justify-content-between hotel-info ">
+        <div class="col-6 sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 550px; height: 450px;"
            data-controller="map"
            data-map-markers-value="<%= @markers.to_json %>"
            data-map-center-value="<%= [@restaurant.longitude, @restaurant.latitude] %>"
            data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-between">
+          <div class="border text-center" style="height: 450px">
+            <h3 class="mt-5">Details & Amenities</h3>
+            <div class="my-5 d-flex flex-column justify-content-between">
+              <h6><i class="fa-solid fa-wifi"></i>Wifi Available</h6>
+              <h6><i class="fa-solid fa-paw"></i>Dogs Allowed</h6>
+              <h6><i class="fa-solid fa-square-parking"></i>Parking Available</h6>
+              <h6><i class="fa-solid fa-utensils"></i>Food Served</h6>
+              <h6><i class="fa-solid fa-snowflake"></i>Air Conditioning</h6>
+              <h6><i class="fa-sharp fa-solid fa-martini-glass"></i>Alcohol Served</h6>
+              <h6><i class="fa-solid fa-mug-saucer"></i>Non-Alcohol Served</h6>
+              <h6><i class="fa-solid fa-ban-smoking"></i>No Smoking Allowed</h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
