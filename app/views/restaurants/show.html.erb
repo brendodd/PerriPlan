@@ -20,26 +20,49 @@
       </div>
     </div>
     <div class="row">
-      <div class="my-5 d-flex justify-content-between hotel-info ">
+      <div class="my-5 d-flex align-items-start justify-content-between hotel-info">
         <div class="col-6 sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 550px; height: 450px;"
            data-controller="map"
            data-map-markers-value="<%= @markers.to_json %>"
            data-map-center-value="<%= [@restaurant.longitude, @restaurant.latitude] %>"
            data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
         </div>
-        <div class="col-6 d-flex flex-column justify-content-between">
-          <div class="border text-center" style="height: 450px">
-            <h3 class="mt-5">Details & Amenities</h3>
-            <div class="my-5 d-flex flex-column justify-content-between">
-              <h6><i class="fa-solid fa-wifi"></i>Wifi Available</h6>
-              <h6><i class="fa-solid fa-paw"></i>Dogs Allowed</h6>
-              <h6><i class="fa-solid fa-square-parking"></i>Parking Available</h6>
-              <h6><i class="fa-solid fa-utensils"></i>Food Served</h6>
-              <h6><i class="fa-solid fa-snowflake"></i>Air Conditioning</h6>
-              <h6><i class="fa-sharp fa-solid fa-martini-glass"></i>Alcohol Served</h6>
-              <h6><i class="fa-solid fa-mug-saucer"></i>Non-Alcohol Served</h6>
-              <h6><i class="fa-solid fa-ban-smoking"></i>No Smoking Allowed</h6>
-            </div>
+        <div class="pl-3 py-5 col-3 d-flex justify-content-between" style="height: 450px">
+          <div class="d-flex flex-column justify-content-between">
+            <h3>Details & Amenities</h3>
+            <h6><i class="pe-2 fa-solid fa-wifi"></i>Wifi Available</h6>
+            <h6><i class="pe-2 fa-solid fa-paw"></i>Dogs Allowed</h6>
+            <h6><i class="pe-2 fa-solid fa-square-parking"></i>Parking Available</h6>
+            <h6><i class="pe-2 fa-solid fa-utensils"></i>Food Served</h6>
+            <h6><i class="pe-2 fa-solid fa-snowflake"></i>Air Conditioning</h6>
+            <h6><i class="pe-2 fa-sharp fa-solid fa-martini-glass"></i>Alcohol Served</h6>
+            <h6><i class="pe-2 fa-solid fa-mug-saucer"></i>Non-Alcohol Served</h6>
+            <h6><i class="pe-2 fa-solid fa-ban-smoking"></i>No Smoking Allowed</h6>
+          </div>
+        </div>
+        <div class="border col-3 d-flex justify-content-between" style="height: 450px">
+          <div class="container my-5">
+            <h4><strong>Reserve Your Booking</strong></h4>
+            <%= simple_form_for [@restaurant, @booking] do |f| %>
+              <div class="row">
+                <div class="col">
+                  <%= f.input :start_time, as: :string,
+                placeholder: "Check-In",
+                wrapper_html: { class: "mb-4" },
+                label_html: { class: "form-label text-secondary fw-bold" },
+                input_html: { data: { controller: "flatpickr" } } %>
+                </div>
+                <div class="col">
+                  <%= f.input :end_time, as: :string,
+                placeholder: "Check-Out",
+                wrapper_html: { class: "mb-4" },
+                label_html: { class: "form-label text-secondary fw-bold" },
+                input_html: { data: { controller: "flatpickr" } } %>
+                </div>
+              </div>
+              <%= f.input :note %>
+              <%= f.submit "Reserve", class: "btn btn-info fw-bold" %>
+            <% end %>
           </div>
         </div>
       </div>
