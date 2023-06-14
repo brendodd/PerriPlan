@@ -22,5 +22,6 @@ class RestaurantsController < ApplicationController
     @markers << @hotels.map { |hotel| { lat: hotel.latitude, lng: hotel.longitude }}
     @markers << { lat: @restaurant.latitude, lng: @restaurant.longitude }
     @markers.flatten!
+    @reviews = @restaurant.reviews
   end
 end

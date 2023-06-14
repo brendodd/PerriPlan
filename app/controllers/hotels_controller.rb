@@ -23,6 +23,8 @@ class HotelsController < ApplicationController
       lng: @hotel.longitude,
       info_window_html: render_to_string(partial: "info_window", locals: { listing: @hotel }),
       type: @hotel.class
-  }
+    }
+
+    @reviews = @hotel.reviews
   end
 end
