@@ -10,7 +10,7 @@ class BookingsController < ApplicationController
     @booking.bookable = @hotel
     @booking.user = current_user
     if @booking.save
-      redirect_to hotel_path(@hotel)
+      redirect_to booking_path(@booking)
     else
       render :new, status: :unprocessable_entity
     end
@@ -24,6 +24,7 @@ class BookingsController < ApplicationController
     @current_bookings = current_user.bookings.where(start_time: ..Date.today, end_time: Date.today + 1..)
     @past_bookings = current_user.bookings.where(end_time: ..Date.today - 1)
     @future_bookings = current_user.bookings.where(start_time: Date.today + 1..)
+    @review = Review.new()
   end
 
   private

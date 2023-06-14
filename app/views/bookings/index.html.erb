@@ -84,7 +84,34 @@
         </div>
         <div class="col flex-grow-0 d-flex flex-column-reverse">
           <div class="card-body-right align-items-end text-nowrap">
-            <p class="card-text"><%= link_to "Leave a review!", "", class:"btn btn-info fw-bold" %></p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-info fw-bold" data-bs-toggle="modal" data-bs-target="#<%=booking.id%>">
+              Leave a review!
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="<%=booking.id%>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog mb-3 mt-2 smol-card-component">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><%= booking.bookable.name %></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container my-2">
+                      <h4>Leave a Review</h4>
+                      <%= simple_form_for [booking, @review] do |f| %>
+                        <%= f.input :comment, as: :text %>
+                        <%= f.input :rating, as: :integer %>
+                        <%= f.submit "Submit", class: "btn btn-primary" %>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <% end %>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

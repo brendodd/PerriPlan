@@ -1,6 +1,6 @@
 <div class="container my-3">
   <h1>Leave a Review</h1>
-  <%= simple_form_for [@hotel, @review] do |f| %>
+  <%= simple_form_for [@booking, @review] do |f| %>
     <%= f.input :comment, as: :text %>
     <%= f.input :rating, as: :integer %>
     <%= f.submit "Submit", class: "btn btn-primary" %>
