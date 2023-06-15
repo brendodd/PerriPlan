@@ -31,6 +31,5 @@ class HotelsController < ApplicationController
       food_marker_html: render_to_string(partial: "cities/food_marker"),
       attr_marker_html: render_to_string(partial: "cities/att_marker")
     }
-
   end
 end

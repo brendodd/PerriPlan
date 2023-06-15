@@ -7,6 +7,25 @@ City.destroy_all
 Hotel.destroy_all
 Restaurant.destroy_all
 Attraction.destroy_all
+User.destroy_all
+
+puts "Creating users..."
+
+User.create!(first_name: "Davide", last_name: "Cifali", email: "davide.cifa@gmail.com", password: "secret")
+User.create!(first_name: "Brendan", last_name: "Dodd", email: "brendan.dodd@gmail.com", password: "secret")
+User.create!(first_name: "Raman", last_name: "Jeganathan", email: "raman.jega@gmail.com", password: "secret")
+User.create!(first_name: "Ricky", last_name: "Gervais", email: "ricky@office.com", password: "secret")
+
+10.times do
+  User.create!(
+    first_name: Faker::Name.first_name,
+    last_name: Faker::Name.last_name,
+    email: "#{rand(1..900)}#{Faker::Internet.email}",
+    password: "secret"
+  )
+end
+
+puts "Successfully created users"
 
 filepath = File.join(__dir__, "hotels/ams_hotels.json")
 serialized_hotel = File.read(filepath)
@@ -170,7 +189,7 @@ puts "creating bookings..."
 
 Booking.destroy_all
 
-5.times do |index|
+10.times do |index|
   Booking.create!(start_time: Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :afternoon).beginning_of_hour,
                   end_time: Faker::Time.between_dates(from: Date.today + 6, to: Date.today + 11, period: :morning).beginning_of_hour,
                   status: ["Pending", "Confirmed"].sample,
@@ -179,14 +198,14 @@ Booking.destroy_all
                   user: User.all.sample)
 end
 
-3.times do |index|
+10.times do |index|
 start_time_past = Faker::Time.between_dates(from: Date.today - 1.year, to: Date.today - 6.months, period: :afternoon).beginning_of_hour
 Booking.create!(start_time: start_time_past,
                 end_time: start_time_past + 2.days,
                 status: "Completed",
                 note: "hello",
                 bookable: Hotel.all.sample,
-                user: User.find_by(email: "ricky@office.com"))
+                user: User.all.sample)
 end
 
 start_time_future = Faker::Time.between_dates(from: Date.today + 3.months, to: Date.today + 6.months, period: :afternoon).beginning_of_hour
@@ -195,10 +214,10 @@ Booking.create!(start_time: start_time_future,
                 status: "Pending",
                 note: "hello",
                 bookable: Hotel.all.sample,
-                user: User.find_by(email: "ricky@office.com"))
+                user: User.all.sample)
 
 
-  5.times do |index|
+  10.times do |index|
     start_time = Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :night).beginning_of_hour
     rest_end_time = start_time + 2.hours
     Booking.create!(start_time: start_time,
@@ -208,9 +227,9 @@ Booking.create!(start_time: start_time_future,
                     bookable: Restaurant.all.sample,
                     user: User.all.sample)
   end
-  Booking.dedupe
+Booking.dedupe
 
-5.times do |index|
+10.times do |index|
   start_time = Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :night).beginning_of_hour
   rest_end_time = start_time + 2.hours
   Booking.create!(start_time: start_time,
@@ -220,7 +239,6 @@ Booking.create!(start_time: start_time_future,
                   bookable: Restaurant.all.sample,
                   user: User.all.sample)
 end
-
 
 puts "Successfully created #{Booking.count} bookings"
 
@@ -233,6 +251,47 @@ Booking.all.each do |booking|
       user: User.all.sample,
       rating: rand(3..5),
       comment: Faker::Restaurant.review
+    )
+  end
+end
+
+first_hotels = Hotel.all[0..3]
+first_restos = Restaurant.all[0..3]
+
+first_hotels.each do |hotel|
+  5.times do
+    booking = Booking.create!(
+      start_time: Date.today - 5,
+      end_time: Date.today - 2,
+      status: "completed",
+      bookable: hotel,
+      user: User.all.sample
+    )
+
+    Review.create!(
+      booking: booking,
+      user: booking.user,
+      comment: Faker::Restaurant.review,
+      rating: rand(3..5)
+    )
+  end
+end
+
+first_restos.each do |resto|
+  5.times do
+    booking = Booking.create!(
+      start_time: Date.today - 5,
+      end_time: Date.today - 2,
+      status: "completed",
+      bookable: resto,
+      user: User.all.sample
+    )
+
+    Review.create!(
+      booking: booking,
+      user: booking.user,
+      comment: Faker::Restaurant.review,
+      rating: rand(3..5)
     )
   end
 end
