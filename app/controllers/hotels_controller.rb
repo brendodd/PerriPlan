@@ -27,5 +27,6 @@ class HotelsController < ApplicationController
     }
 
     @reviews = @hotel.reviews
+    
   end
 end

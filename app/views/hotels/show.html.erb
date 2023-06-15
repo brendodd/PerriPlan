@@ -93,21 +93,24 @@
       </div>
     </div>
   </div>
-  <% @reviews.each do |review|  %>
-    <section class="rating__card">
-      <blockquote class="rating__card__quote">“<%=
+  <h3 class="mt-5">Reviews</h3>
+  <div class="row justify-content-between">
+    <% @reviews.each do |review|  %>
+      <section class="rating__card col-6 my-3">
+        <blockquote class="rating__card__quote">“<%=
       review.comment
       %>
-        ”</blockquote>
-      <div class="rating__card__stars">
-        <% review.rating.times do %>
-          <i class="fa-solid fa-paw" ></i>
-        <% end %>
-        <% (5 - review.rating).times do %>
-          <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
-        <% end %>
-      </div>
-      <p class="rating__card__bottomText"><%= review.user.first_name %></p>
-    </section>
-  <% end %>
+          ”</blockquote>
+        <div class="rating__card__stars">
+          <% review.rating.times do %>
+            <i class="fa-solid fa-paw" ></i>
+          <% end %>
+          <% (5 - review.rating).times do %>
+            <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
+          <% end %>
+        </div>
+        <p class="rating__card__bottomText"><%= review.user.first_name %></p>
+      </section>
+    <% end %>
+  </div>
 </div>
