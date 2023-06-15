@@ -48,7 +48,7 @@
               <% else %>
                 <p class="card-text lh-lg"><i class="fa-solid fa-calendar-days"></i> <%= booking.start_time.strftime("%d %b %Y") %> - <%= booking.end_time.strftime("%d %b %Y") %></p>
               <% end %>
-              <p class="card-text"><i class="fa-solid fa-calendar-check"></i></i></i> <%= "Confirmed"%></p>
+              <p class="card-text"><i class="fa-solid fa-calendar-check"></i></i></i> <%=link_to "Confirmed" , booking_path(booking) %></p>
         </div>
       </div>
     </div>
