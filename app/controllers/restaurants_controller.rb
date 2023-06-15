@@ -5,7 +5,7 @@ class RestaurantsController < ApplicationController
       {
         lat: restaurant.latitude,
         lng: restaurant.longitude,
-        info_window_html: render_to_string(partial: "info_window", locals: {restaurant: restaurant })
+        info_window_html: render_to_string(partial: "info_window", locals: { restaurant: restaurant })
       }
     end
   end
@@ -20,7 +20,7 @@ class RestaurantsController < ApplicationController
       }
     end
     @hotels = Hotel.near([@restaurant.latitude, @restaurant.longitude], 2)
-    @markers << @hotels.map { |hotel| { lat: hotel.latitude, lng: hotel.longitude }}
+    @markers << @hotels.map { |hotel| { lat: hotel.latitude, lng: hotel.longitude } }
     @markers << { lat: @restaurant.latitude, lng: @restaurant.longitude }
     @markers.flatten!
     @reviews = @restaurant.reviews

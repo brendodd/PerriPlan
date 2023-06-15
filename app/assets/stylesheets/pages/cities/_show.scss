@@ -61,3 +61,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.favorite-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #FFC65A;
+  font-size: 24px;
+}

@@ -26,6 +26,11 @@
                   <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= hotel.location %></p>
                   <div class="smol-card-component-body">
                     <%= link_to "Book Now", hotel_path(hotel), class:"btn btn-info fw-bold" %>
+                    <div class="favorite-btn">
+                      <%= link_to hotel_favorites_path(hotel), data: {turbo_method: :post} do %>
+                        <i class="fa-solid fa-bone"></i>
+                      <% end %>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -49,6 +54,11 @@
                     <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
                     <div class="smol-card-component-body">
                       <%= link_to "View Now", restaurant_path(restaurant), class:"btn btn-info fw-bold" %>
+                      <div class="favorite-btn">
+                        <%= link_to restaurant_favorites_path(restaurant), data: {turbo_method: :post} do %>
+                          <i class="fa-solid fa-bone"></i>
+                        <% end %>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -73,6 +83,11 @@
                     <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= attraction.location %></p>
                     <div class="smol-card-component-body">
                       <%= link_to "View Now", attraction_path(attraction), class:"btn btn-info fw-bold" %>
+                      <div class="favorite-btn">
+                        <%= link_to attraction_favorites_path(attraction), data: {turbo_method: :post} do %>
+                          <i class="fa-solid fa-bone"></i>
+                        <% end %>
+                      </div>
                     </div>
                   </div>
                 </div>

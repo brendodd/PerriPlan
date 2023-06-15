@@ -84,3 +84,4 @@ end
 
 gem "geocoder"
 gem "faker"
+gem "acts_as_favoritor"
