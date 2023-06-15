@@ -14,6 +14,7 @@ puts "Creating users..."
 User.create!(first_name: "Davide", last_name: "Cifali", email: "davide.cifa@gmail.com", password: "secret")
 User.create!(first_name: "Brendan", last_name: "Dodd", email: "brendan.dodd@gmail.com", password: "secret")
 User.create!(first_name: "Raman", last_name: "Jeganathan", email: "raman.jega@gmail.com", password: "secret")
+User.create!(first_name: "Ricky", last_name: "Gervais", email: "ricky@office.com", password: "secret")
 
 10.times do
   User.create!(
@@ -24,6 +25,7 @@ User.create!(first_name: "Raman", last_name: "Jeganathan", email: "raman.jega@gm
   )
 end
 
+puts "Successfully created users"
 
 filepath = File.join(__dir__, "hotels/ams_hotels.json")
 serialized_hotel = File.read(filepath)
@@ -225,7 +227,7 @@ Booking.create!(start_time: start_time_future,
                     bookable: Restaurant.all.sample,
                     user: User.all.sample)
   end
-  Booking.dedupe
+Booking.dedupe
 
 10.times do |index|
   start_time = Faker::Time.between_dates(from: Date.today + 5, to: Date.today + 10, period: :night).beginning_of_hour
@@ -238,7 +240,6 @@ Booking.create!(start_time: start_time_future,
                   user: User.all.sample)
 end
 
-
 puts "Successfully created #{Booking.count} bookings"
 
 puts "creating reviews..."
@@ -250,8 +251,8 @@ Booking.all.each do |booking|
       user: User.all.sample,
       rating: rand(3..5),
       comment: Faker::Restaurant.review
-)
-end
+    )
+  end
 end
 
 first_hotels = Hotel.all[0..3]
@@ -272,7 +273,7 @@ first_hotels.each do |hotel|
       user: booking.user,
       comment: Faker::Restaurant.review,
       rating: rand(3..5)
-  )
+    )
   end
 end
 
@@ -291,7 +292,7 @@ first_restos.each do |resto|
       user: booking.user,
       comment: Faker::Restaurant.review,
       rating: rand(3..5)
-  )
+    )
   end
 end
 
