@@ -26,6 +26,5 @@ class HotelsController < ApplicationController
       type: @hotel.class
     }
 
-    @reviews = @hotel.reviews
   end
 end

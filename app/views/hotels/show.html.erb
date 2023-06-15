@@ -93,18 +93,20 @@
       </div>
     </div>
   </div>
-  <% @reviews.each do |review|  %>
-    <section class="rating__card">
+  <% @hotel.reviews.each do |review|  %>
+    <section class="rating__card card mb-3 mt-2 smol-card-component">
       <blockquote class="rating__card__quote">“<%=
       review.comment
       %>
         ”</blockquote>
       <div class="rating__card__stars">
-        <% review.rating.times do %>
-          <i class="fa-solid fa-paw" ></i>
-        <% end %>
-        <% (5 - review.rating).times do %>
-          <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
+        <% unless review.rating.nil? %>
+          <% review.rating.times do %>
+            <i class="fa-solid fa-paw" ></i>
+          <% end %>
+          <% (5 - review.rating).times do %>
+            <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
+          <% end %>
         <% end %>
       </div>
       <p class="rating__card__bottomText"><%= review.user.first_name %></p>
