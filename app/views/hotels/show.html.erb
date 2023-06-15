@@ -9,7 +9,7 @@
       <% (5 - @hotel.price_rating).times do %>
         <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
       <% end %>
-      <%= link_to "Go back", :back, class:"btn btn-info fw-bold" %>
+      <%= link_to "Go back", :back, class:"btn btn-info fw-bold al" %>
     </div>
     <div class="d-flex m-0 p-0">
       <div class="main-pic" style="background-image: url('<%= @hotel.image_url[0] %>');"></div>
@@ -66,10 +66,10 @@
           <% end %>
         </div>
       </div>
-      <div class="smol-card-component col-3 my-5 d-flex justify-content-between hotel-info">
+      <div class="smol-card-component col-3 my-5 d-flex justify-content-between hotel-info align-items-center">
         <div class="container">
           <h4><strong>Reserve Your Booking</strong></h4>
-          <%= simple_form_for [@hotel, @booking] do |f| %>
+          <%= simple_form_for [@hotel, @booking], class: "pl-4" do |f| %>
             <div class="row">
               <div class="col">
                 <%= f.input :start_time, as: :string,
@@ -93,18 +93,20 @@
       </div>
     </div>
   </div>
-  <% @reviews.each do |review|  %>
-    <section class="rating__card">
+  <% @hotel.reviews.each do |review|  %>
+    <section class="rating__card card mb-3 mt-2 smol-card-component">
       <blockquote class="rating__card__quote">“<%=
       review.comment
       %>
         ”</blockquote>
       <div class="rating__card__stars">
-        <% review.rating.times do %>
-          <i class="fa-solid fa-paw" ></i>
-        <% end %>
-        <% (5 - review.rating).times do %>
-          <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
+        <% unless review.rating.nil? %>
+          <% review.rating.times do %>
+            <i class="fa-solid fa-paw" ></i>
+          <% end %>
+          <% (5 - review.rating).times do %>
+            <i class="fa-solid fa-paw" style="color: #d4d4d4;"></i>
+          <% end %>
         <% end %>
       </div>
       <p class="rating__card__bottomText"><%= review.user.first_name %></p>

@@ -16,16 +16,21 @@ class HotelsController < ApplicationController
         lat: restaurant.latitude,
         lng: restaurant.longitude,
         info_window_html: render_to_string(partial: "info_window", locals: { listing: restaurant }),
-        type: restaurant.class
+        type: restaurant.class,
+        hotel_marker_html: render_to_string(partial: "cities/hotel_marker"),
+        food_marker_html: render_to_string(partial: "cities/food_marker"),
+        attr_marker_html: render_to_string(partial: "cities/att_marker")
       }
     end
     @markers << {
       lat: @hotel.latitude,
       lng: @hotel.longitude,
       info_window_html: render_to_string(partial: "info_window", locals: { listing: @hotel }),
-      type: @hotel.class
+      type: @hotel.class,
+      hotel_marker_html: render_to_string(partial: "cities/hotel_marker"),
+      food_marker_html: render_to_string(partial: "cities/food_marker"),
+      attr_marker_html: render_to_string(partial: "cities/att_marker")
     }
 
-    @reviews = @hotel.reviews
   end
 end
