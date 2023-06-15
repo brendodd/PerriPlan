@@ -66,10 +66,10 @@
           <% end %>
         </div>
       </div>
-      <div class="smol-card-component col-3 my-5 d-flex justify-content-between hotel-info">
+      <div class="smol-card-component col-3 my-5 d-flex justify-content-between hotel-info align-items-center">
         <div class="container">
           <h4><strong>Reserve Your Booking</strong></h4>
-          <%= simple_form_for [@hotel, @booking] do |f| %>
+          <%= simple_form_for [@hotel, @booking], class: "pl-4" do |f| %>
             <div class="row">
               <div class="col">
                 <%= f.input :start_time, as: :string,
