@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   resources :restaurants, only: [:show] do
     resources :bookings, only: [:new, :create]
   end
-  
-  resources :bookings, only: [:show, :index]
+
+  resources :bookings, only: [:show, :index, :destroy]
   resources :attractions, only: [:show]
 end

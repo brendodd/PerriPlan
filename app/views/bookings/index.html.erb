@@ -54,7 +54,8 @@
     </div>
     <div class="col flex-grow-0 d-flex flex-column-reverse">
       <div class="card-body-right align-items-end text-nowrap">
-        <p class="card-text"><%= link_to "Manage your booking", "", class:"btn btn-info fw-bold" %></p>
+        <p class="card-text"><%= link_to "Cancel my booking", "", data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class:"btn btn-info fw-bold" %></p>
+        <li class="list-group-item">
       </div>
     </div>
   </div>

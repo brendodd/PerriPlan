@@ -27,6 +27,12 @@ class BookingsController < ApplicationController
     @review = Review.new()
   end
 
+  def destroy
+    @booking = booking.find(params[:id])
+    @booking.destroy
+    redirect_to booking_path(@booking), status: :see_other
+  end
+
   private
 
   def booking_params
