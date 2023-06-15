@@ -17,7 +17,11 @@ class CitiesController < ApplicationController
         loc: listing.location,
         lat: listing.latitude,
         lng: listing.longitude,
-        info_window_html: render_to_string(partial: "info_window", locals: { listing: listing })
+        info_window_html: render_to_string(partial: "info_window", locals: { listing: listing }),
+        type: listing.class,
+        hotel_marker_html: render_to_string(partial: "hotel_marker"),
+        food_marker_html: render_to_string(partial: "food_marker"),
+        attr_marker_html: render_to_string(partial: "att_marker")
       }
     end
   end

@@ -22,16 +22,16 @@ export default class extends Controller {
 
   #addMarkersToMap() {
     this.markersValue.forEach((marker) => {
-      let color = '#000'
+      const customMarker = document.createElement("div")
       if (marker.type === "Restaurant") {
-        color = '#581845'
+        customMarker.innerHTML = marker.food_marker_html
       } else if (marker.type === "Hotel") {
-        color = '#FFC300'
+        customMarker.innerHTML = marker.hotel_marker_html
       } else if (marker.type === "Attraction") {
-        color = '#DAF7A6'
+        customMarker.innerHTML = marker.attr_marker_html
       }
       const popup = new mapboxgl.Popup().setHTML(marker.info_window_html)
-      new mapboxgl.Marker({color: color})
+      new mapboxgl.Marker(customMarker)
         .setLngLat([ marker.lng, marker.lat ])
         .setPopup(popup)
         .addTo(this.map)
