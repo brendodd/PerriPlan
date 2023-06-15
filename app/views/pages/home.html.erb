@@ -1,6 +1,6 @@
 <div>
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.istockphoto.com/id/1155030342/photo/dog-travel-by-car.webp?b=1&s=170667a&w=0&k=20&c=eNS7OiN-Si03Wo49u-XXGTCvxJmkIc4C4QrOU3p8chE=);">
-    <div class="container">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= @backgrounds.sample %>);">
+    <div class="container" style="margin-top: -200px">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -11,7 +11,7 @@
                             class: "form-control rounded",
                             placeholder: "Search destinations..." %>
         <%= button_tag type: 'submit', name: "", id: "btnsearch", class: "btn btn-secondary" do %>
-          <i class="fas fa-search"></i>
+          <i class="fa-solid fa-paw"></i>
         <% end %>
       <% end %>
     </div>

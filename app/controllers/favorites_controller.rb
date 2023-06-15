@@ -16,7 +16,11 @@ class FavoritesController < ApplicationController
         loc: listing.location,
         lat: listing.latitude,
         lng: listing.longitude,
-        # info_window_html: render_to_string(partial: "info_window", locals: { listing: listing })
+        info_window_html: render_to_string(partial: "cities/info_window", locals: { listing: listing }),
+        type: listing.class,
+        hotel_marker_html: render_to_string(partial: "cities/hotel_marker"),
+        food_marker_html: render_to_string(partial: "cities/food_marker"),
+        attr_marker_html: render_to_string(partial: "cities/att_marker")
       }
     end
   end
@@ -26,13 +30,21 @@ class FavoritesController < ApplicationController
       hotel = Hotel.find(params[:hotel_id])
       current_user.favorite(hotel)
     end
+
     if params[:restaurant_id].present?
       restaurant = Restaurant.find(params[:restaurant_id])
       current_user.favorite(restaurant)
     end
+
     if params[:attraction_id].present?
       attraction = Attraction.find(params[:attraction_id])
       current_user.favorite(attraction)
     end
+  end
+
+  def destroy
+    @favorite = Favorite.find(params[:id])
+    @favorite.destroy
+    redirect_to favorites_path, status: :see_other
   end
 end
