@@ -13,7 +13,7 @@
     <main class="et-main">
       <section class="et-slide p-4">
         <div id="hotels">
-          <h1>Hotels</h1>
+          <h1><strong>Hotels</strong></h1>
         </div>
         <div class="row">
           <% if @hotels.present? %>
@@ -28,6 +28,14 @@
                     <div class="smol-card-component-body">
                       <%= link_to "Book Now", hotel_path(hotel), class:"btn btn-info fw-bold" %>
                     </div>
+                    <div class="favorite-btn">
+                      <% if current_user.favorited?(hotel) %>
+                        <% fav = current_user.favorites.find_by(favoritable: hotel) %>
+                        <%= link_to favorite_path(fav), data: { turbo_method: :delete } do %>
+                          <i class="fa-solid fa-trash-can" style="color: #bbbec3;"></i>
+                        <% end %>
+                      <% end %>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -39,7 +47,7 @@
       </section>
       <section class="et-slide p-4">
         <div id="fooddrink">
-          <h1>Food & Drink</h1>
+          <h1><strong>Food & Drinks</strong></h1>
         </div>
         <div class="row">
           <% if @restaurants.present? %>
@@ -66,7 +74,7 @@
       </section>
       <section class="et-slide p-4">
         <div id="attractions">
-          <h1>Attractions</h1>
+          <h1><strong>Attractions</strong></h1>
         </div>
         <div class="row">
           <% if @attractions.present? %>
