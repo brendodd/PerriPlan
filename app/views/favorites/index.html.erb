@@ -1,0 +1,101 @@
+<section class="et-hero-tabs">
+  <div class="et-hero-tabs-container">
+    <a class="et-hero-tab" href="#hotels"><i class="pe-2 fa-solid fa-house"></i>Hotels</a>
+    <a class="et-hero-tab" href="#fooddrink"><i class="pe-2 fa-solid fa-bowl-food"></i>Food & Drink</a>
+    <a class="et-hero-tab" href="#attractions"><i class="pe-2 fa-solid fa-baseball"></i>Attractions</a>
+    <span class="et-hero-tab-slider"></span>
+  </div>
+</section>
+<div class="d-flex overflow-scroll smooth-scroll">
+  <div class="flex-grow-1">
+    <!-- Hero -->
+    <!-- Main -->
+    <main class="et-main">
+      <section class="et-slide p-4">
+        <div id="hotels">
+          <h1>Hotels</h1>
+        </div>
+        <div class="row">
+          <% if @hotels.present? %>
+            <% @hotels.each do |hotel| %>
+              <div class="col-md-6 mb-4">
+                <div class="smol-card-component">
+                  <%#= "cl_image_tag hotel.photo.key", class: "smol-card-component-img-top" %>
+                  <div class="smol-card-component-copy">
+                    <div class="card-background" style="background-image: url('<%= hotel.image_url[0] %>');"></div>
+                    <p class="smol-card-component-text mt-3 mb-0"><i class="pe-1 fa-solid fa-house"></i> <%= hotel.name %></p>
+                    <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= hotel.location %></p>
+                    <div class="smol-card-component-body">
+                      <%= link_to "Book Now", hotel_path(hotel), class:"btn btn-info fw-bold" %>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          <% else %>
+            <p>No hotels found</p>
+          <% end %>
+        </div>
+      </section>
+      <section class="et-slide p-4">
+        <div id="fooddrink">
+          <h1>Food & Drink</h1>
+        </div>
+        <div class="row">
+          <% if @restaurants.present? %>
+            <% @restaurants.each do |restaurant| %>
+              <div class="col-md-6 mb-4">
+                <div class="smol-card-component">
+                  <div class="smol-card-component-body">
+                    <div class="smol-card-component-copy">
+                      <div class="card-background" style="background-image: url('<%= cl_image_path restaurant.photo.key %>');"></div>
+                      <p class="smol-card-component-text mt-3 mb-0"><i class="pe-1 fa-solid fa-bowl-food"></i> <%= restaurant.name %></p>
+                      <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= restaurant.location %></p>
+                      <div class="smol-card-component-body">
+                        <%= link_to "View Now", restaurant_path(restaurant), class:"btn btn-info fw-bold" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          <% else %>
+            <p>No restaurants found</p>
+          <% end %>
+        </div>
+      </section>
+      <section class="et-slide p-4">
+        <div id="attractions">
+          <h1>Attractions</h1>
+        </div>
+        <div class="row">
+          <% if @attractions.present? %>
+            <% @attractions.each do |attraction| %>
+              <div class="col-md-6 mb-4">
+                <div class="smol-card-component">
+                  <div class="smol-card-component-body">
+                    <div class="smol-card-component-copy">
+                      <div class="card-background" style="background-image: url('<%= attraction.photo.attached? ? cl_image_path(attraction.photo.key) : image_path("park.jpg") %>');"></div>
+                      <p class="smol-card-component-text mt-3 mb-0"><i class="pe-1 fa-solid fa-baseball"></i> <%= attraction.name %></p>
+                      <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= attraction.location %></p>
+                      <div class="smol-card-component-body">
+                        <%= link_to "View Now", attraction_path(attraction), class:"btn btn-info fw-bold" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          <% else %>
+            <p>No attractions found</p>
+          <% end %>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="sticky-map flex-shrink-0" style="position: sticky !important; top: 10px; width: 520px; height: 100vh;"
+    data-controller="map"
+    data-map-markers-value="<%= @markers.to_json %>"
+    data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+  </div>
+</div>
