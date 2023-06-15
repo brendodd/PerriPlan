@@ -20,8 +20,9 @@ Rails.application.routes.draw do
     resources :favorites, only: [:create]
   end
 
+  resources :bookings, only: [:show, :index, :destroy]
+  resources :attractions, only: [:show]
   resources :bookings, only: [:show, :index]
   resources :attractions, only: [:show] do
     resources :favorites, only: [:create]
-  end
 end
