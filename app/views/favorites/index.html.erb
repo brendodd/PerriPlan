@@ -62,6 +62,14 @@
                       <div class="smol-card-component-body">
                         <%= link_to "View Now", restaurant_path(restaurant), class:"btn btn-info fw-bold" %>
                       </div>
+                      <div class="favorite-btn">
+                        <% if current_user.favorited?(restaurant) %>
+                          <% fav = current_user.favorites.find_by(favoritable: restaurant) %>
+                          <%= link_to favorite_path(fav), data: { turbo_method: :delete } do %>
+                            <i class="fa-solid fa-trash-can" style="color: #bbbec3;"></i>
+                          <% end %>
+                        <% end %>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -88,6 +96,14 @@
                       <p class="smol-card-component-text"><i class="pe-1 fa-solid fa-location-dot"></i> <%= attraction.location %></p>
                       <div class="smol-card-component-body">
                         <%= link_to "View Now", attraction_path(attraction), class:"btn btn-info fw-bold" %>
+                      </div>
+                      <div class="favorite-btn">
+                        <% if current_user.favorited?(attraction) %>
+                          <% fav = current_user.favorites.find_by(favoritable: attraction) %>
+                          <%= link_to favorite_path(fav), data: { turbo_method: :delete } do %>
+                            <i class="fa-solid fa-trash-can" style="color: #bbbec3;"></i>
+                          <% end %>
+                        <% end %>
                       </div>
                     </div>
                   </div>
