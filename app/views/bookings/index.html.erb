@@ -1,5 +1,5 @@
 <div class="container my-5 mb-3">
-  <h2>Current Bookings</h2>
+  <h4>Current Bookings</h4>
   <% if @current_bookings.present? %>
     <% @current_bookings.each do |booking| %>
       <div class="card mb-3 mt-2 smol-card-component" style="max-width: 1140px;">
@@ -29,7 +29,7 @@
 <% else %>
   <p> No current bookings  </p>
 <% end %>
-<h2>Upcoming Bookings</h2>
+<h4>Upcoming Bookings</h4>
 <% if @future_bookings.present? %>
   <% @future_bookings.each do |booking| %>
     <div class="card mb-3 mt-2 smol-card-component" style="max-width: 1140px;">
@@ -64,7 +64,7 @@
 <% else %>
   <p> No upcoming bookings  </p>
 <% end %>
-<h2>Past Bookings</h2>
+<h4>Past Bookings</h4>
 <% if @past_bookings.present? %>
   <% @past_bookings.each do |booking| %>
     <div class="card mb-3 mt-2 smol-card-component" style="max-width: 1140px;">
@@ -94,12 +94,12 @@
               <div class="modal-dialog mb-3 mt-2 smol-card-component">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel"><%= booking.bookable.name %></h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"><b><%= booking.bookable.name %></b></h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <div class="container my-2">
-                      <h4>Leave a Review</h4>
+                      <h5 class="mb-3">Tell us what you think</h5>
                       <%= simple_form_for [booking, @review] do |f| %>
                         <%= f.input :comment, as: :text %>
                         <%= f.input :rating, as: :integer %>
