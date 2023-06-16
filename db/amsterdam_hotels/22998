@@ -2121,7 +2121,7 @@
       "__typename": "PropertyLocation",
       "address": {
         "__typename": "PropertyAddress",
-        "addressLine": "Oudezijds Voorburgwal 197, Amsterdam, North Holland, 1012 EX",
+        "addressLine": "Oudezijds Voorburgwal 197, Amsterdam, 1012 EX",
         "city": "Amsterdam",
         "province": "North Holland",
         "countryCode": "NLD",
